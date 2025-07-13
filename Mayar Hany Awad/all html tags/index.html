@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- desc, kw important for seo to make the website in higher rank -->
+    <meta name="description" content="Online store" />
+    <meta name="keywords" content="online, cloths" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <meta http-equiv="refresh" content="5" />  -->
+
+    <title>Demo</title>
+
+    <link rel="stylesheet" href="" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <!-- semmantic tags => better for seo for searching of the website -->
+    <header id="top">
+        <nav>
+            <ul style="list-style-type: none;">
+                <li style="display: inline;"><a href="#">Home</a></li>
+                <li style="display: inline;"><a href="#">About</a></li>
+                <li style="display: inline;"><a href="#">ontact</a></li>
+                <li style="display: inline;"><a href="#bottom">Go bottom</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside></aside>
+        <section></section>
+        <article></article>
+    </main>
+    <footer></footer>
+
+
+    <hr />
+
+    <!-- typography tags -->
+    <h2>typography tags</h2>
+    <p>hi</p>
+    <p>hello</p> 
+
+    <pre>   welcome
+           hi
+    </pre>
+
+    <h1>Mayar</h1>
+    <h2>Mayar</h2>
+    <h3>Mayar</h3>
+    <h4>Mayar</h1>
+    <h5>Mayar</h1>
+    <h6>Mayar</h6>
+    <!-- for seo every single page preferred only 1 h1 -->
+    <!-- for seo every single page prefferd to have multiple h2, h3 -->
+    
+    <span>Mayar </span>
+    <label for="">Hany</label>
+
+    <p><i>Mayar Hany</i></p>
+    <p><em>Mayar Hany</em></p>
+    <!-- em is better to use for seo -->
+    
+    <p><b>Mayar Hany</b></p>
+    <p><strong>Mayar Hany</strong></p>
+    <!-- strong is better to use for seo -->
+
+    <u>underline</u>
+
+    <p><strong><em><u>all together</u></em></strong></p>
+
+    <p>Mayar <mark>Hany </mark>Awad</p>
+    <p>Mayar <small>Hany </small>Awad</p>
+
+    <!-- preferred to put inline tags inside block tags 'best practice' -->
+
+    <hr/>
+
+    <!-- lists -->
+    <!-- used for navbar -->
+    <h2>lists</h2>
+    <ul type="square">
+        <li>name</li>
+        <li>age</li>
+        <li>gender</li>
+    </ul>
+
+    <ol type="I">
+        <li>name</li>
+        <li>age</li>
+        <li>gender</li>
+    </ol>
+
+    <dl>
+        <dt>gender</dt>
+        <dd>male</dd>
+        <dd>female</dd>
+    </dl>
+
+    <ol>
+        <li>
+            <ul>
+                <li>name</li>
+                <li>gender</li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li>mayar</li>
+                <li>female</li>
+            </ul>
+        </li>
+    </ol>
+
+    <hr />
+
+    <!-- images -->
+    <h2>images</h2>
+    <img src="./assets/images/p.jpeg" width="150" height="150" alt="alternate text if the image not showed" />
+    <img src="./assets/images/p.jpeg" style="width: 20%; height: 10vh;" alt="alternate text if the image not showed" />
+
+    <hr />
+
+    <!-- links - anchors -->
+    <h2>links</h2>
+    <a href="https://www.google.com">Google</a>
+    <a href="./contact.html">Contact us</a>
+    <a href="./products/showproduct.html">products</a>
+    <a href="https://www.google.com">
+        <br/>
+        <img src="assets/images/google.svg" alt="">
+    </a>
+    <br/>
+
+    <hr />
+
+    <!-- media -->
+    <h2>media</h2>
+    <video src="./assets/videos/video.mp4" width="250" controls autoplay muted loop></video>
+    <!-- best practice -->
+    <video width="250" controls muted autoplay loop>
+        <source src="./assets/videos/video.mp4" type="video/mp4"/>
+        <source src="./assets/videos/video.mp4" type="video/ogg"/>
+    </video>
+
+    <br /><hr/>
+
+    <audio src="./assets/audios/audio.mp3" controls autoplay muted loop></audio>
+    <!-- best practice -->
+    <audio controls autoplay muted loop>
+        <source src="./assets/audios/audio.mp3" type="audio/mp3" />
+    </audio>
+
+    <hr />
+
+    <!-- tables -->
+    <h2>tables</h2>
+    <table border="2">
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>age</th>
+            <th>gender</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Mayar</td>
+            <td>24</td>
+            <td>female</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>ali</td>
+            <td>24</td>
+            <td>male</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>ola</td>
+            <td>24</td>
+            <td>female</td>
+        </tr>
+    </table>
+
+    <table border="2">
+        <tr>
+            <th colspan="2">name</th>
+            <th rowspan="2">age</th>
+        </tr>
+        <tr>
+            <th>fName</th>
+            <th>lName</th>
+        </tr>
+        <tr>
+            <td>ahmed</td>
+            <td>ahmed</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>ahmed</td>
+            <td>ahmed</td>
+            <td>20</td>
+        </tr>
+    </table>
+
+
+    <hr />
+    <!-- Task -->
+    <h2>table task</h2>
+    <table border="2">
+        <tr>
+            <th colspan="3">name</th>
+            <th rowspan="2">age</th>
+        </tr>
+        <tr>
+            <th>fName</th>
+            <th>mName</th>
+            <th>lName</th>
+        </tr>
+        <tr>
+            <td rowspan="3">ola</td>
+            <td>ss</td>
+            <td rowspan="3">ali</td>
+            <td rowspan="3">25</td>
+        </tr>
+        <tr>
+            <td>ll</td>
+        </tr>
+        <tr>
+            <td>mm</td>
+        </tr>
+    </table>
+
+    <hr />
+
+    <!-- forms -->
+    <h2>forms</h2>
+    <button><a href="/form.html">Forms</a></button>
+
+    <hr />
+
+    <!-- iframe -->
+    <h2>iframe</h2>
+    <iframe src="./index.html"home page" frameborder="0"></iframe>
+
+    <hr />
+    <!-- canvas -->
+    <h2>canvas</h2>
+    <canvas id="canvas" width="50" height="50" style="border: 2px solid red;"></canvas>
+
+
+    <hr />
+    <!-- a tag automatically refresh the page -->
+    <a href="#top">Go top</a>
+    <div id="bottom">bottom of the page</div>
+
+</body>
+</html>

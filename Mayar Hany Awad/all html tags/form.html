@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Forms</title>
+</head>
+<body>
+    <!-- get => show the data  in url-->
+    <!-- post => hide the data from url (send in request) -->
+    <!-- disabled not send in url -->
+    <!-- readonly send in url -->
+    <!-- name => is for the name of the field send in url to be stored in DB -->
+
+    <form action="./contact.html" method="get" novalidate target="_blank" enctype="">
+        <div>
+            <label for="firstname">first name</label>
+            <input type="text" id="firstname" name="firstname" required />
+        </div>
+        <div>
+            <!-- <label for="firstname">first name</label> -->
+            <input type="text" id="fn" name="firstname" placeholder="username" required />
+        </div>
+        <div>
+            <label for="lastname">lastname</label>
+            <input type="text" id="lastname" name="lastname" readonly value="Ali"  />
+        </div>
+        <div>
+            <label for="pwd">password</label>
+            <input type="password" id="pwd" name="pwd" minlength="8" maxlength="10" />
+        </div>
+        <div>
+            <label for="phone">phone</label>
+            <input type="tel" id="phone" />
+        </div>
+        <div>
+            <label for="age">age</label>
+            <input type="number" id="age" />
+        </div>
+        <div>
+            <label for="url">website</label>
+            <input type="url" id="url" />
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" id="email" />
+        </div>
+        <div>
+            <label for="rate">rate</label>
+            <input type="range" id="rate" min="1" max="5" />
+        </div>
+        <div>
+            <label for="bd">birthdate</label>
+            <input type="date" id="bd" />
+        </div>
+        <div>
+            <label for="month">month</label>
+            <input type="month" id="month" />
+        </div>
+        <div>
+            <label for="time">time</label>
+            <input type="time" id="time" />
+        </div>
+        <div>
+            <label for="color">color</label>
+            <input type="color" id="color" />
+        </div>
+        <div>
+            <label for="file">file</label>
+            <input type="file" id="file" />
+        </div>
+        <div>
+            <label for="search">search</label>
+            <input type="search" id="search" />
+        </div>
+        <div>
+            <input type="hidden" id="" />
+        </div>
+        <div>
+            <span>gender</span>
+            <input type="radio" name="gender" id="male" value="male" checked />
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="female" value="female" />
+            <label for="female">female</label>
+        </div>
+        <div>
+            <span>sports</span>
+            <input type="checkbox" name="sports" id="fb" value="football" checked />
+            <label for="fb">football</label>
+            <input type="checkbox" name="sports" id="bb" value="basketball" />
+            <label for="bb">basketball</label>
+            <input type="checkbox" name="sports" id="hb" value="handball" />
+            <label for="hb">handball</label>
+        </div>
+        <div>
+            <label for="message">message</label>
+            <textarea name="" id="message" rows="10" cols="15"></textarea>
+        </div>
+        
+        <div>
+            <label for="country">country</label>
+            <select name="" id="country" selected multiple>
+                <option disabled>choose your country</option>
+                <option value="Egypt">Egypt</option>
+                <option value="KSA">KSA</option>
+            </select>
+        </div>
+        <br />
+        <div>
+            <label for="cities">city</label>
+            <input type="text" list="city" id="cities"/>
+            <datalist id="city">
+                <option value="Cairo" />
+                <option value="Mansoura" />
+                <option value="Alexandria" />
+            </datalist>
+        </div>
+        <br />
+        <input type="submit" value="save" />
+        <input type="reset" value="delete" />
+        <!-- <input type="button" value="حفظ" /> -->
+    </form>
+
+</body>
+</html>
