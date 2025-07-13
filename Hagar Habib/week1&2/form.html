@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="learn html forms">
+	<meta name="keywords" content="form, webpage">
+	<title>Forms</title>
+</head>
+
+<body>
+	<!-- form is inline -->
+	<form action="contact.html" method="get" enctype="multipart/form-data">
+		<br><br>
+		<label for="user-name">First name</label>
+		<input type="text" name="username" id="user-name" autofocus required pattern="[A-Za-z]+"
+			title="Please use English letters only.">
+		<br>
+		<label for="lastname">Last name</label>
+		<input type="text" name="lastname" placeholder="last name" id="lastname" autocomplete="on">
+		<br>
+		<label for="school">School</label>
+		<input type="text" name="school" value="Amgaad School" readonly>
+		<br>
+		<label for="pwd">password</label>
+		<input type="password" name="password" id="pwd" minlength="8" maxlength="16">
+		<br>
+		<label for="phone-">phone</label>
+		<input type="tel" name="phone" id="phone-">
+		<br>
+		<label for="age">age</label>
+		<input type="number" name="age" id="age">
+		<br>
+		<label for="url">website</label>
+		<input type="url" name="site" id="url">
+		<br>
+		<label for="mail">email</label>
+		<input type="email" name="email" id="mail">
+		<br>
+		<label for="rate">rate</label>
+		<input type="range" name="rate" id="rate" min="1" max="5">
+		<br>
+		<label for="birthdate">birthdate</label>
+		<input type="date" name="birthdate" id="birthdate">
+		<br>
+		<label for="month">month</label>
+		<input type="month" name="month" id="month">
+		<br>
+		<label for="time">time</label>
+		<input type="time" name="time" id="time">
+		<br>
+		<label for="color">color</label>
+		<input type="color" name="color" id="color">
+		<br>
+		<label for="file">upload cv</label>
+		<input type="file" name="file" id="file">
+		<br>
+		<label for="q">search</label>
+		<input type="search" name="search" id="q">
+		<br>
+		<input type="hidden" name="hide" id="hidden">
+		<br>
+		<span>gender </span>
+		<input type="radio" name="gender" id="male" value="male" checked>
+		<label for="male">male</label>
+		<input type="radio" name="gender" id="female" value="female">
+		<label for="female">female</label>
+		<br>
+		<span>Sports</span>
+		<input type="checkbox" name="sports" id="fb" value="football">
+		<label for="fb">football</label>
+		<input type="checkbox" name="sports" id="bb" value="basketball">
+		<label for="bb">basketball</label>
+		<input type="checkbox" name="sports" id="hb" value="handball">
+		<label for="hb">handball</label>
+		<br>
+		<br>
+		<label for="comment">comment</label>
+		<textarea name="comment" id="comment" cols="10" rows="5"></textarea>
+		<br>
+		<select name="city" id="city" multiple>
+			<option disabled selected>Select City</option>
+			<option value="ca">cairo</option>
+			<option value="gi">giza</option>
+		</select>
+		<br>
+		<label for="country">country</label>
+		<input type="text" name="country" list="country">
+		<datalist id="country">
+			<option value="egypt">Egypt</option>
+			<option value="saudi">Saudi</option>
+		</datalist>
+		<br>
+		<input type="reset" value="delete">
+		<input type="submit" value="save">
+	</form>
+	<iframe style="border: 2px solid blue;" width="560" height="315" src="./contact.html" title="YouTube video"
+		frameborder="0" allowfullscreen>
+	</iframe>
+	<canvas id="canv" width="50" height="50" style="border: 2px solid orange;"></canvas>
+
+	<svg width="150" height="150">
+		<circle cx="60" cy="60" r="40" stroke="yellow" stroke-width="5" fill="green"></circle>
+	</svg>
+</body>
+
+</html>

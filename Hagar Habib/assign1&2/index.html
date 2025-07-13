@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>table</title>
+	<style>
+		.table-section {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+
+		table,
+		th,
+		td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+	</style>
+</head>
+
+<body>
+	<section class="table-section">
+		<table>
+			<tr>
+				<th colspan="3">Name</th>
+				<th rowspan="2">Age</th>
+			</tr>
+			<tr>
+				<td>Mohammad</td>
+				<td>Hagar</td>
+				<td>Omar</td>
+			</tr>
+			<tr>
+				<td rowspan="3">class</td>
+				<td>Mai</td>
+				<td rowspan="3">table</td>
+				<td rowspan="2">30</td>
+			</tr>
+			<tr>
+				<td>aya</td>
+			</tr>
+			<tr>
+				<td>Mona</td>
+				<td>20</td>
+			</tr>
+
+		</table>
+	</section>
+</body>
+
+</html>
