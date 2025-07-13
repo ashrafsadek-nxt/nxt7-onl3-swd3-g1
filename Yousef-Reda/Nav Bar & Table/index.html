@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+</head>
+
+<body>
+    <!-- NAVBAR  -->
+    <nav class="d-flex justify-between align-center">
+        <div class="logo">
+            <img src="assets/images/favicon.png" alt="logo">
+        </div>
+        <ul class="links d-flex justify-content-between align-items-center">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <div class="current-mode">
+            <label id="l-mode" for="mode" class="d-none">
+                <i class="fa-solid fa-sun fa-xl" style="color: #00345c;"></i>
+            </label>
+            <label id="d-mode" for="mode">
+                <i class="fa-solid fa-moon fa-xl" style="color: #00345c;"></i>
+            </label>
+            <input type="checkbox" id="mode" hidden>
+        </div>
+    </nav>
+    <main>
+        <!-- TABLE -->
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ahmed</td>
+                    <td>Ali</td>
+                    <td>Sayed</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td rowspan="3"></td>
+                    <td></td>
+                    <td></td>
+                    <td rowspan="3"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+
+</html>

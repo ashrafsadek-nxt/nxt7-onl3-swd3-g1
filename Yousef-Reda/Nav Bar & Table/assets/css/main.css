@@ -1,0 +1,99 @@
+/* GENERAL RULES */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav label {
+    cursor: pointer;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+:root {
+    --bg-color: white;
+    --text-color: black;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* DARK MODE */
+
+:root:has(#mode:checked) #d-mode {
+    display: none;
+}
+
+:root:has(#mode:checked) #l-mode {
+    display: block;
+}
+
+:root:has(#mode:checked) {
+    --bg-color: #090040;
+    --text-color: #f0f0f0;
+}
+
+/* NAVIGATION BAR STYLES */
+
+nav {
+    background-color: #b3b4b4;
+    padding: 10px 50px;
+}
+
+.logo img {
+    width: 40px;
+    display: block;
+}
+
+.links a {
+    padding: 0 20px;
+    color: var(--text-color);
+}
+
+/* Table Style */
+
+table {
+    width: 70%;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+table tr {
+    border-bottom: 1px solid #ccc;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    color: var(--text-color);
+}
