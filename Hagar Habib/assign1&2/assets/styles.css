@@ -37,20 +37,16 @@ nav {
 a.active {
   color: rgb(81, 81, 169);
 }
-.search input {
+form.search input {
   padding: 15px 10px;
   border: 1px solid #ccc;
   border-radius: 15px;
   font-size: 20px;
 }
-
-.toggle-button {
+form.search button {
+  border: none;
+  background: none;
   cursor: pointer;
-  padding: 10px 15px;
-  background: #eee;
-  color: #333;
-  border-radius: 5px;
-  margin: 10px;
 }
 
 .search i {
