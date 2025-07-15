@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+h1{
+    text-align: center;
+    color: #536241;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 5px #b1cc17;
+    font-style: italic;
+}
+.sign{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3f5cc;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.sign h2{
+    text-align: center;
+    color: #536241;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 3px #b1cc17;
+    font-style: italic;
+}
+.input-group{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.input-group label{
+    width: 30%;
+    color: #536241;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.input-group input{
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px ;
+    padding-left: 15px;
+    font-size: 14px;
+}
+.input-group2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.input-group2 span{
+    width: 30%;
+    color: #536241;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.input-group2 label{
+    margin-right: 10px;
+}
+.radio-group{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px ;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.radio-group input{
+    margin-right: 5px;
+}
+.input-group3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input-group3 button{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #536241;
+    color: #f3f5cc;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.input-group3 button a{
+    text-decoration: none;
+    color: #f3f5cc;
+}
