@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A signup page to create a facebook account" />
+    <meta name="keywords" content="facebook signup create account" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <title>Sign up for Facebook</title>
+    
+    <!-- * fav icon -->
+    <link rel="shortcut icon" href="./assets/images/facebook logo.png" type="image/x-icon">
+
+    <!-- ~ font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ! facebook style sheet -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+<body>
+    <header>
+        <div class="logo centered">
+            <h1>facebook</h1>
+        </div>
+        <div class="container">
+            <div class="heading centered">
+                <h2>Create a new account</h2>
+                <p>it's quick and easy.</p>
+            </div>
+            <form action="" method="post">
+                <div class="username one-line">
+                    <div>
+                        <input class="main-input" type="text" name="FName" placeholder="First name" required />
+                    </div>
+                    <div>
+                        <input class="main-input" type="text" name="SName" placeholder="Surname" required />
+                    </div>
+                </div>
+                <div class="birth-date">
+                    <div class="text">
+                        <p>Date of birth <span><i class="fa-solid fa-question"></i></span></p>
+                    </div>
+                    <div class="dob one-line">
+                        <div>
+                            <select required class="main-input" name="day">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select required class="main-input" name="month">
+                                <option value="jan">Jan</option>
+                                <option value="feb">Feb</option>
+                                <option value="mar">Mar</option>
+                                <option value="apr">Apr</option>
+                                <option value="may">May</option>
+                                <option value="jun">Jun</option>
+                                <option value="jul">Jul</option>
+                                <option value="aug">Aug</option>
+                                <option value="sep">Sep</option>
+                                <option value="oct">Oct</option>
+                                <option value="nov">Nov</option>
+                                <option value="dec">Dec</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select required class="main-input" name="year">
+                                <option value="2025">2025</option>
+                                <option value="2024">2024</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                                <option value="2014">2014</option>
+                                <option value="2013">2013</option>
+                                <option value="2012">2012</option>
+                                <option value="2011">2011</option>
+                                <option value="2010">2010</option>
+                                <option value="2009">2009</option>
+                                <option value="2008">2008</option>
+                                <option value="2007">2007</option>
+                                <option value="2006">2006</option>
+                                <option value="2005">2005</option>
+                                <option value="2004">2004</option>
+                                <option value="2003">2003</option>
+                                <option value="2002">2002</option>
+                                <option value="2001">2001</option>
+                                <option value="2000">2000</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="gender">
+                    <div class="text">
+                        <p>Gender <span><i class="fa-solid fa-question"></i></span></p>
+                    </div>
+                    <div class="one-line">
+                        <div class="female-box main-input">
+                        <label for="female">Female</label>
+                        <input type="radio" name="female" id="female" required />
+                    </div>
+                    <div class="male-box main-input">
+                        <label for="male">Male</label>
+                        <input type="radio" name="male" id="male" required />
+                    </div>
+                    <div class="custom-box main-input">
+                        <label for="custom">Custom</label>
+                        <input type="radio" name="custom" id="custom" required />
+                    </div>
+                    </div>
+                </div>
+                <div class="mobile-email-box">
+                    <input class="main-input" type="text" name="Mobile or Email" placeholder="Mobile number or email address" required />
+                </div>
+                <div class="password-box">
+                    <input class="main-input" type="password" name="Password" placeholder="New password" required />
+                </div>
+                <div class="policy-box">
+                    <div>
+                        <p>People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more.</a></p>
+                    </div>
+                    <div>
+                        <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+                    </div>
+                </div>
+                <div class="signup-btn centered">
+                    <button type="submit">Sign Up</button>
+                </div>
+                <div class="signin-btn centered">
+                    <a href="#">Already have an account?</a>
+                </div>
+            </form>
+        </div>
+    </header>
+</body>
+</html>

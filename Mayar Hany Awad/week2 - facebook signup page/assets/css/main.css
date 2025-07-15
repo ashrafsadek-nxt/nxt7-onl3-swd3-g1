@@ -1,0 +1,147 @@
+/* ! roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ! global style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+input::placeholder{
+    font-size: 16px;
+    color: #777777bc;
+}
+/* ! utilities */
+.main-input{
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #7777775f;
+    border-radius: 5px;
+}
+/* make the dives in one line */
+.one-line{
+    display: flex;
+    gap: 12px;
+}
+.one-line div{
+    flex: 1;
+}
+/* small heading */
+.text{
+    font-size: 12px;
+    color: #606770;
+    margin-bottom: 5px;
+}
+/* styling ? in the small heading */
+.text span{
+    background-color: #606770;
+    color: #fff;
+    font-size: 9px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+/* centered texts */
+.centered{
+    text-align: center;
+}
+/* ! header */
+header{
+    height: 100vh;
+    background-color: #F0F2F5;
+}
+/* ! facebook logo */
+header .logo{
+    color: #0866FF;
+    font-size: 30px;
+    padding-block: 20px;
+}
+/* ! container */
+header .container{
+    width: 28%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 24px -3px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+.container .heading{
+    border-bottom: 1px solid #7777775f;
+    padding: 7px 0;
+}
+.container .heading h2{
+    font-size: 25px;
+    margin-block: 3px;
+}
+.container .heading p{
+    color: #606770;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+/* ! form */
+.container form{
+    padding: 0 17px;
+}
+/* ! username div - birth-date div */
+.container form .username,
+.container form .birth-date
+{
+    margin-block: 15px;
+}
+/* ! gender */
+.container form .gender .main-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ! mobile-email-box - password-box */
+.container form .mobile-email-box,
+.container form .password-box{
+    margin-block: 10px;
+}
+/* ! policy box */
+.container form .policy-box div:first-of-type{
+    margin-top: 20px;
+}
+.container form .policy-box div:last-of-type{
+    margin-block: 15px;
+}
+.container form .policy-box p{
+    font-size: 11px;
+    color: #777777;
+}
+.container form .policy-box p a{
+    color: #385898;
+}
+/* ! sign up button */
+.container form .signup-btn button{
+    background-color: #00a400;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 6px 70px;
+    margin-block: 10px;
+    cursor: pointer;
+}
+.container form .signup-btn button:hover{
+    background-color: #00a400e5;
+}
+/* ! sign in */
+.container form .signin-btn a{
+    display: inline-block;
+    font-size: 17px;
+    color: #1877f2;
+    margin: 10px 0 25px;
+    text-decoration: none;
+}
