@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="shortcut icon" href="assests/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>task 1 html tags</title>
+</head>
+<body>
+    <header>
+        <nav>
+                <div class="nav-logo">
+                    <a href="#"><img src="assests/images/logo.png" alt="website logo"></a>
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">profile</a></li>
+                        <li><a href="#">contact us</a></li>
+                        <li><a href="#">about</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <button class="dark-theme-switch"><i class="fa-solid fa-moon"></i></button>
+                    <form action="#" method="get">
+                        <input type="text" name="search" id="search" placeholder="search...">
+                        <input type="submit" value="search">
+                    </form>
+                </div>
+        </nav>
+    </header>
+    <aside>
+        <h3>html tags</h3>
+        <ul>
+            <li><a href="#headings">headings</a></li>
+            <li><a href="#paragraphs">paragraphs, lists, images & links</a></li>
+            <li><a href="#table">tables</a></li>
+            <li><a href="#forms">forms</a></li>
+            <li><a href="#multimedia">multimedia</a></li>
+        </ul>
+    </aside>
+    <main>
+        <section class="post">
+            <div class="post-title">
+                <h3>Lorem, ipsum dolor.</h3>
+            </div>
+            <div class="post-body">
+                <p>
+                    <strong><u>Lorem ipsum</u></strong> <em>dolor</em> sit amet consectetur adipisicing elit. 
+                    <mark>Voluptates, beatae,</mark> atque ea necessitatibus vel est qui vitae ut tempora 
+                    minima saepe quam, <span class="comic-font">dolore nihil autem doloribus quod ducimus magni harum.</span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus voluptate, autem, molestiae maxime nulla, commodi non asperiores quae inventore molestias doloremque excepturi porro quos ullam dignissimos corrupti quas magni hic totam eius nisi? Nemo voluptate voluptatibus quisquam veniam alias dolor hic saepe architecto? Enim, soluta atque? Fuga et nostrum maxime qui doloremque esse dignissimos dolorem, recusandae explicabo necessitatibus vitae animi temporibus vero eos accusantium excepturi exercitationem fugiat sunt possimus eveniet. In optio atque maiores, ea incidunt excepturi suscipit ipsa, harum facere, sint veniam voluptas ut! Odio veritatis dolore, similique reiciendis neque eius. Hic pariatur, iure sequi odio perspiciatis, ipsum id vitae saepe quas natus asperiores voluptates facilis cupiditate harum eum! Expedita totam illum dignissimos exercitationem odio libero nam reprehenderit provident culpa, obcaecati ex qui a tempore sequi eum officiis unde eaque praesentium delectus? Dolorem sapiente ad, ducimus molestiae molestias esse temporibus non saepe animi excepturi totam dicta? Assumenda quasi ea facilis aspernatur laborum delectus maiores modi nihil voluptatibus, veritatis nisi beatae! Illo distinctio velit libero repellat, cum quia fugit accusamus consequuntur odio saepe sit quasi! Laborum facere in rem quibusdam ad aspernatur odio, dolorem vel, similique repudiandae optio tempora accusamus sunt assumenda nam culpa quis a voluptates totam voluptate odit!
+                </p>
+                <button>show more</button>
+            </div>
+        </section>
+        <section class="post">
+            <div class="post-title">
+                <h3>Lorem, ipsum dolor.</h3>
+            </div>
+            <div class="post-body">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="3">name</th>
+                            <th rowspan="2" colspan="2">age</th>
+                        </tr>
+                        <tr>
+                            <td>first name</td>
+                            <td>middle name</td>
+                            <td>last name</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="3">john</td>
+                            <td>doe</td>
+                            <td rowspan="3">peter</td>
+                            <td rowspan="2" colspan="2">25 years</td>
+                        </tr>
+                        <tr>
+                            <td>alex</td>
+                        </tr>
+                        <tr>
+                            <td>donald</td>
+                            <td>35 years</td>
+                            <td>5 months</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="post" id="headings">
+            <h3 class="post-title">headings</h3>
+            <p class="post-body">
+                <h1>heading 1</h1>
+                <h2>heading 2</h2>
+                <h3>heading 3</h3>
+                <h4>heading 4</h4>
+                <h5>heading 5</h5>
+                <h6>heading 6</h6>
+            </p>
+        </section>
+        <section class="post" id="paragraphs">
+            <h3 class="post-title">paragraphs, lists, images & links</h3>
+            <p class="post-body">
+                <strong><u>Lorem ipsum</u></strong> <em>dolor</em> sit amet consectetur adipisicing elit. 
+                <mark>Voluptates, beatae,</mark> atque ea necessitatibus vel est qui vitae ut tempora 
+                minima saepe quam, <span class="comic-font">dolore nihil autem doloribus quod ducimus magni harum.</span>
+                <hr>
+                <img src="assests/images/sample.jpg" width="50%" alt="sample picture">
+                <br>
+                <a href="https://www.google.com" target="_blank">google</a>
+                <h4>detailed list</h4>
+                <dl>
+                    <dt>subject</dt>
+                    <dd>math</dd>
+                    <dd>sience</dd>
+                    <dt>sport</dt>
+                    <dd>football</dd>
+                    <dd>swimming</dd>
+                </ul>
+                <h4>nested list</h4>
+                <ol type="i">
+                    <li> item 1
+                        <ul type="circle">
+                            <li>nested item 1</li>
+                            <li>nested item 1</li>
+                            <li>nested item 1</li>
+                        </ul>
+                    </li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                </ol>
+            </p>
+        </section>
+        <section class="post" id="table">
+            <h3 class="post-title">table</h3>
+            <p class="post-body">
+                <table>
+                    <thead>
+                        <th>name</th>
+                        <th>email</th>
+                        <th>adress</th>
+                        <th>hobbey</th>
+                        <th>talent</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>john doe</td>
+                            <td>johndoe@example.com</td>
+                            <td>manhattan, new york, usa</td>
+                            <td>chess</td>
+                            <td>drawing</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">alex sam</td>
+                            <td>alexsam@example.com</td>
+                            <td rowspan="3">london, uk</td>
+                            <td colspan="2">writing</td>
+                        </tr>
+                        <tr>
+                            <td>alexsam123@gmail.com</td>
+                            <td>crosswords</td>
+                            <td>singing</td>
+                        </tr>
+                        <tr>
+                            <td>alexsam221@outlook.com</td>
+                            <td>reading</td>
+                            <td>drawing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </p>
+        </section>
+        <section class="post" id="forms">
+            <h3 class="post-title">forms</h3>
+            <p class="post-body">
+                <form action="#" method="post">
+                    <section class="form-field">
+                        <label for="firstname">first name</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="first name">
+                    </section>
+                    <section class="form-field">
+                        <label for="lastname">last name</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="last name">
+                    </section>
+                    <section class="form-field">
+                        <label for="email">email</label>
+                        <input type="email" name="email" id="email" placeholder="email@example.com">
+                    </section>
+                    <section class="form-field">
+                        <label for="password">password</label>
+                        <input type="password" name="password" id="password">
+                    </section>
+                    <section class="form-field">
+                        <label for="age">age</label>
+                        <input type="number" name="age" id="age">
+                    </section>
+                    <section class="form-field">
+                        <label for="phone">phone</label>
+                        <input type="tel" name="phone" id="phone">
+                    </section>
+                    <section class="form-field">
+                        <label for="website">website</label>
+                        <input type="url" name="website" id="website" placeholder="https://www.example.com">
+                    </section>
+                    <section class="form-field">
+                        <label for="rate">rate</label>
+                        <input type="range" name="website" min="0" max="10" id="rate">
+                    </section>
+                    <section class="form-field">
+                        <label for="birthdate">birth date</label>
+                        <input type="date" name="birthdate" id="birthdate">
+                    </section>
+                    <section class="form-field">
+                        <label for="month">month</label>
+                        <input type="month" name="month" id="month">
+                    </section>
+                    <section class="form-field">
+                        <label for="time">time</label>
+                        <input type="time" name="time" id="time">
+                    </section>
+                    <section class="form-field">
+                        <label for="color">color</label>
+                        <input type="color" name="color" id="color">
+                    </section>
+                    <section class="form-field">
+                        <label for="file">img</label>
+                        <input type="file" name="img" id="file">
+                    </section>
+                    <section class="form-field">
+                        <label for="description">description</label>
+                        <textarea name="description" name="description" id="description"></textarea>
+                    </section>
+                    <section class="form-field">
+                        <label for="city">city</label>
+                        <select name="city" id="city">
+                            <option value="" selected>select city</option>
+                            <option value="ca">cairo</option>
+                            <option value="gi">giza</option>
+                            <option value="alx">alexandria</option>
+                            <option value="as">aswan</option>
+                        </select>
+                    </section>
+                    <section class="form-field">
+                        <label for="country">country</label>
+                        <input type="text" id="country" list="countries">
+                        <datalist id="countries">
+                            <option value="eg">egypt</option>
+                            <option value="sa">saudi arabia</option>
+                            <option value="su">sudan</option>
+                            <option value="jo">jordan</option>
+                        </datalist>
+                    </section>
+                    <section class="form-field">
+                        <p>gender</p>
+                        <input type="radio" name="gender" id="male" checked>
+                        <label for="male">male</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">female</label>
+                    </section>
+                    <section class="form-field">
+                        <p>sports</p>
+                        <input type="checkbox" name="sports" id="football" value="football" checked>
+                        <label for="football">football</label>
+                        <input type="checkbox" name="sports" id="swimming" value="swimming">
+                        <label for="swimming">swimming</label>
+                        <input type="checkbox" name="sports" id="boxing" value="boxing">
+                        <label for="boxing">boxing</label>
+                    </section>
+                    <section class="form-field">
+                        <label for="search">search</label>
+                        <input type="search" id="search">
+                    </section>
+                    <input type="reset" value="clear">
+                    <input type="submit" value="save">
+                </form>
+            </p>
+        </section>
+        <section class="post" id="multimedia">
+            <h3 class="post-title">multimedia</h3>
+            <p class="post-body">
+                <h4>video</h4>
+                <video controls width="50%">
+                    <source src="assests/media/sample video.mp4">
+                </video>
+                <h4>audio</h4>
+                <audio controls>
+                    <source src="assests/media/sample audio.mp3">
+                </audio>
+            </p>
+        </section>
+    </main>
+    <script src="assests/js/main.js"></script>
+</body>
+</html>

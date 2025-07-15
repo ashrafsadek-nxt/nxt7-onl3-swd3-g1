@@ -1,0 +1,175 @@
+:root {
+    --text-color: black;
+    --button-text-color: white;
+    --background-color: white;
+    --nav-background-color: #230150;
+    --nav-hover-background-color: #170135;
+    --table-color-1: white;
+    --table-color-2: rgb(216, 216, 216);
+    --button-color: rgb(0, 60, 255);
+}
+
+.dark-theme {
+    --text-color: white;
+    --button-text-color: black;
+    --background-color: #212121;
+    --table-color-1: rgb(108, 108, 108);
+    --table-color-2: rgb(91, 90, 90);
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+    transition: color ease 1s, background-color ease 1s;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--nav-background-color);
+    transition: color ease 1s, background-color ease 1s;
+}
+
+.nav-logo {
+    padding: 10px;
+    width: 20%;
+}
+
+.nav-logo img {
+    width: 3vw;
+}
+
+nav  ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items:end;
+    margin: 0;
+    height: 100%;
+}
+
+nav  ul > li > a {
+    padding: 2vmax;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+
+nav  ul > li > a:hover {
+    background-color: var(--nav-hover-background-color);
+}
+
+.search {
+    display: flex;
+}
+
+.search input, .search button {
+    box-sizing: border-box;
+    padding: 0.5vmax;
+    border-radius: 0.5vmax;
+    margin: 0.5vmax;
+    min-width: 3vw;
+    height: 60%;
+}
+
+.search [type="submit"], .search button {
+    color: white;
+    font-weight: bold;
+    background-color: #B13BFF;
+    text-transform: capitalize;
+    border: 0;
+    cursor: pointer;
+}
+
+.search [type="submit"]:hover, .search button:hover {
+    background-color: #8d30ca;
+}
+
+main {
+    margin: 15vh auto;
+    width: 80%;
+}
+
+.post {
+    border: 1px solid;
+    padding: 3vmax;
+    margin: 3vh 0;
+    border-radius: 2vmax;
+}
+
+.post-body {
+    padding: 2vmax;
+}
+
+.highlighted {
+    background-color: wheat;
+}
+
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid;
+    margin: 0;
+}
+
+table th {
+    background-color: var(--table-color-1);
+}
+
+table tr:nth-child(2n+1) {
+    background-color: var(--table-color-2);
+}
+
+aside {
+    position: fixed;
+    left: 0;
+    top: 15%;
+    background-color: var(--nav-background-color);
+    color: white;
+    text-transform: capitalize;
+    padding: 2vh;
+    height: 8%;
+    transition: height ease 0.5s;
+    overflow: hidden;
+}
+
+aside:hover {
+    height: 40%;
+}
+
+aside h3 {
+    margin: 4vh 0 ;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    margin: 2vh 0;;
+}
+
+aside a {
+    text-decoration: none;
+    color: var(--button-text-color);
+}
+
+.post button {
+    padding: 1vh;
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    cursor: pointer;
+}
