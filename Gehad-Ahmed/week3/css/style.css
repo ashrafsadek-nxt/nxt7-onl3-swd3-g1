@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+      box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  
+}
+/* ////////////nav//////////// */
+
+/* .logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.links{
+    list-style: none;
+}
+.links li{
+    margin: 10px;
+    
+}
+#search-input{
+    padding: 5px;
+    width: 100%;
+    border:1px solid #606770;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.search-glass{
+    border: none;
+    background: none;
+} */
+/* /////////////////////form////////////////////// */
+.logo{
+    margin-top: 30px;
+    color:#0866ff ;
+    font-weight: bold;
+    font-size: 3.4rem;
+}
+.sign-up-page{
+    background-color: white;
+   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+   border-radius: 8px;
+
+
+}
+.h-line{
+    width: 100%;
+    height: 0.05rem;
+    background-color: #CCD0D5;
+   
+    /* border: 1px solid #CCD0D5; */
+    margin: 10px 0 20px;
+
+}
+.sign-head{
+    font-size: 25px;
+}
+.form-s{
+    color: rgb(96, 103, 112);
+    font-size: 15PX;
+}
+.birth-date{
+    width: 130px ;
+    height: 35px;
+    padding: 5px;
+  border:  1px solid #CCD0D5 ;
+    border-radius: 3px;
+    color:#1c1e21;
+
+}
+.birth-l{
+    font-size:12px;
+    color: #606770;
+}
+.text-gray{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.938);
+    background: #606770;
+    font-size: 10px;
+    margin-top: 2px;
+}
+.radio-container div{
+
+    width: 130px;
+    height: 30px;
+    border: 1px solid #CCD0D5 ;
+    border-radius: 3px;
+    padding: 16px 10px;
+    background-color: white;
+}
+.email-input input ,.uname ,.pass-input input{
+    padding: 8px 8px;
+    font-size: 15px;
+    border-radius: 3px;
+   border: 1px solid #CCD0D5;
+    /* border-color: #CCD0D5 !important; */
+    outline: none !important;
+    box-shadow: none !important;
+    transition: all 0.2s ease-in-out;
+}
+.email-input input ,.pass-input input {
+    width: 100%;
+    
+    /* margin: 0 2px; */
+
+}
+.email-input input:focus ,.uname:focus ,.pass-input input:focus{
+    border: 1px solid #CCD0D5 ;
+    outline: none;
+     box-shadow: 1px 1px 3px #c9cccf !important;
+}
+.info a{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+.info p{
+    font-size: 11px;
+}
+.form-btn{
+    padding: 3px 50px;
+    background-color: #00a400;
+    border: #00a400;
+    font-size: 18px !important;
+    border-radius: 6px !important;
+    color: white;
+
+}
+.form-btn:hover{
+    background-color: #00a400;
+    color: rgba(255, 255, 255, 0.74);
+}
+.form-data a{
+    font-size: 16px;
+    color: #1877f2;
+}
+
+
