@@ -1,0 +1,59 @@
+.fancy-form {
+  background-color: #fffaf4; /* بيج فاتح */
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 35px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.fancy-form h2 {
+  text-align: center;
+  color: #a87b5d;
+  margin-bottom: 25px;
+}
+
+.fancy-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #5a3e36;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.fancy-form input,
+.fancy-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #fff;
+  transition: border-color 0.3s;
+}
+
+.fancy-form input:focus,
+.fancy-form textarea:focus {
+  border-color: #a87b5d;
+  outline: none;
+}
+
+.fancy-form button {
+  background-color: #a87b5d;
+  color: white;
+  border: none;
+  padding: 14px;
+  width: 100%;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.fancy-form button:hover {
+  background-color: #8c6247;
+  transform: scale(1.02);
+}
