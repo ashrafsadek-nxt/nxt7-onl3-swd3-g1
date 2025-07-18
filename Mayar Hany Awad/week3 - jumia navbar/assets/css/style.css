@@ -1,0 +1,143 @@
+/* ^ roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ~ global style */
+:root{
+    --main-color: #FE9804;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #F1F1F2;
+    height: 2000px;
+    color: #313133;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ~ utilities */
+.container{
+    padding: 0 170px;
+}
+
+/* ! banner section */
+.banner{
+    background-color: #69bfd3;
+}
+
+/* ! settings section */
+.settings .container{
+    padding-block: 3px;
+}
+/* selling */
+.settings .container .selling a{
+    color: var(--main-color);
+    font-size: 12px;
+    gap: 5px;
+}
+.settings .container .selling img{
+    width: 15px;
+}
+.settings .container .selling a:hover{
+    text-decoration: underline;
+}
+/* paying */
+.settings .paying{
+    gap: 20px;
+}
+.settings .paying a{
+    filter: brightness(0);
+    opacity: 0.2;
+}
+.settings .paying a:hover{
+    filter: brightness(1);
+    opacity: 1;
+}
+.settings .paying img{
+    width: 50px;
+}
+/* lang */
+.settings .container .lang{
+    gap: 20px;
+    font-size: 12px;
+}
+.settings .container .lang .eng,
+.settings .container .lang .arb{
+    gap: 10px;
+}
+.settings .container .lang .eng{
+    opacity: 0.2;
+    border-right: 1px solid #000;
+    padding-right: 15px;
+}
+
+/* ! navbar */
+header{
+    background-color: #fff;
+    padding-block: 15px;
+    box-shadow: 0 4px 4px -4px rgba(0,0,0,.12);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+/* nav */
+nav{
+    gap: 30px;
+}
+/* logo */
+nav .logo img{
+    width: 130px;
+}
+/* form */
+nav form{
+    gap: 10px;
+    flex-grow: 1;
+}
+nav form div{
+    width: 100%;
+    margin-left: 50px;
+}
+nav form input{
+    padding: 12px;
+    border: 1px solid #a3a3a6;
+    border-radius: 4px;
+    width: 100%;
+}
+nav form input::placeholder{
+    font-size: 16px;
+}
+nav form button{
+    background-color: var(--main-color);
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 12px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+/* user */
+nav .user{
+    gap: 20px;
+}
+nav .user .account,
+nav .user .help,
+nav .user .cart{
+    gap: 10px;
+    cursor: pointer;
+}
+nav .user .account:hover,
+nav .user .help:hover,
+nav .user .cart:hover{
+    color: var(--main-color);
+}
