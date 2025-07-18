@@ -1,0 +1,141 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --main-color: #FE9804;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto";
+    background-color: #F1F1F2;
+    height: 2000px;
+    color: #313133;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.dis-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    padding: 0 100px;
+   
+}
+.banner{
+    background-color: #59cce6;
+}
+.settings .container{
+    padding-block: 3px;
+ 
+}
+.settings .container .sell-on a:hover{
+    text-decoration: underline;
+}
+.settings .container .sell-on img{
+    width: 15px;
+}
+.settings .container .sell-on a{
+    color: var(--main-color);
+    font-size: 12px;
+    gap: 5px;
+}
+.settings .paying{
+    gap: 20px;
+}
+.settings .paying a{
+    filter: brightness(0);
+    opacity: 0.2;
+}
+.settings .paying a:hover{
+    filter: brightness(1);
+    opacity: 1;
+}
+.settings .paying img{
+    width: 50px;
+}
+/* lang */
+.settings .container .lang{
+    gap: 20px;
+    font-size: 12px;
+    
+}
+.settings .container .lang .eng,
+.settings .container .lang .arab{
+    gap: 10px;
+}
+.settings .container .lang .eng{
+    opacity: 0.2;
+    border-right: 1px solid #000;
+    padding-right: 15px;
+}
+
+/*main navbar */
+header{
+    background-color: #fff;
+    padding-block: 15px;
+    box-shadow: 0 4px 4px -4px rgba(0,0,0,.12);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  
+}
+nav{
+    gap: 5px;
+    width: 100%;
+}
+
+
+nav form{
+    gap: 5px;
+    flex-grow: 1;
+}
+nav .logo img{
+    width: 90px;
+    margin: auto;
+}
+
+nav form div{
+    width: 40%;
+    margin-left:20px;
+}
+nav form input{
+    padding: 10px;
+    border: 1px solid #a3a3a6;
+    border-radius: 4px;
+    width: 100%;
+    margin-left:0px;
+}
+nav form input::placeholder{
+    font-size: 16px;
+}
+nav form button{
+
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: var(--main-color);
+    padding: 10px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  
+}
+
+nav .user .account,
+nav .user .help,
+nav .user .cart{
+    gap: 10px;
+    cursor: pointer;
+ 
+}
+nav .user .account:hover,
+nav .user .help:hover,
+nav .user .cart:hover{
+    color: var(--main-color);
+}
