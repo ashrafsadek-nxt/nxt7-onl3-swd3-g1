@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jumia Navbar</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .top-bar {
+      background-color: red;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .middle-bar {
+      background-color: #f2f2f2;
+      padding: 10px;
+      text-align: left;
+      font-size: 14px;
+      color: #555;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .navbar {
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      position: sticky;
+      top: 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .navbar .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #000;
+    }
+
+    .navbar .search input {
+      padding: 8px;
+      width: 300px;
+    }
+
+    .navbar .search button {
+      padding: 8px 15px;
+      background-color: orange;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+   .navbar .actions a {
+     margin-left: 20px;
+     text-decoration: none;  
+     color: black;
+     cursor: pointer;
+    }
+
+
+    .content {
+      height: 2000px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+     Flash Sale! Limited Time Savings!
+  </div>
+
+  <div class="middle-bar">
+    🔸 Sell on Jumia
+  </div>
+
+  <div class="navbar">
+    <div class="logo">JUMIA</div>
+    <div class="search">
+      <input type="text" placeholder="Search products...">
+      <button>Search</button>
+    </div>
+    <div class="actions">
+      <a href="#">Account</a>
+      <a href="#">Help</a>
+      <a href="#">Cart</a>
+    </div>
+
+  </div>
+
+  <div class="content">
+    <pre>Welcome
+Scroll down...</pre>
+  </div>
+
+</body>
+</html>
