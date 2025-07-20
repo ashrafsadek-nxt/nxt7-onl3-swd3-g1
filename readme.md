@@ -6,7 +6,7 @@
 The **Depi Angular Frontend Developer Track** is a comprehensive training program designed for professional developers to master modern web development using Angular and related technologies. This program equips learners with the skills to build dynamic, responsive, and scalable web applications through hands-on courses, practical labs, and a capstone project. The curriculum covers essential front-end and back-end technologies, coding best practices, version control, containerization, and testing, ensuring participants are job-ready for modern development roles.
 
 **Program Language**: English / Arabic  
-**Total Contact Hours**: 120 (81 Online, 39 Physical)  
+**Total Contact Hours**: 120  Online  
 **Assignments**: 39 hours  
 **Total Program Duration**: 159 hours
 
@@ -34,8 +34,8 @@ The **Depi Angular Frontend Developer Track** is a comprehensive training progra
 ## Course Breakdown
 
 ### 1. Prompt Engineering
-**Hours**: 6 (3 Online, 3 Physical)  
-**Sessions**: 1 Online, 1 Physical  
+**Hours**: 6  Online
+**Sessions**: 2 Online  
 **Description**: Learn to design intelligent, context-aware prompts to enhance Angular projects with AI-driven functionalities. Master prompt engineering techniques to optimize user interactions and data flow.  
 **Sessions**:
 - **Session 1**: Introduction to Prompt Engineering (Concepts, Types, Best Practices, Hands-on Exercises)
@@ -46,8 +46,8 @@ The **Depi Angular Frontend Developer Track** is a comprehensive training progra
 ---
 
 ### 2. HTML5 Essentials
-**Hours**: 12 (9 Online, 3 Physical)  
-**Sessions**: 3 Online, 1 Physical  
+**Hours**: 12 Online  
+**Sessions**: 4 Online  
 **Description**: Gain foundational HTML5 skills to develop web applications, focusing on programming logic, user interfaces, and accessibility.  
 **Sessions**:
 - **Session 1**: Introduction to HTML5 (Evolution, Semantic Tags, DOM, Cross-Browser Compatibility)
@@ -60,8 +60,8 @@ The **Depi Angular Frontend Developer Track** is a comprehensive training progra
 ---
 
 ### 3. CSS Essentials Principles of UX/UI Design
-**Hours**: 12 (9 Online, 3 Physical)  
-**Sessions**: 3 Online, 1 Physical  
+**Hours**: 12 Online  
+**Sessions**: 4 Online 
 **Description**: Learn CSS3 to style web applications and implement UX/UI design principles for responsive, accessible layouts.  
 **Sessions**:
 - **Session 1**: Introduction to CSS3 (Cascading, Colors, Grid, Flexbox, Selectors)
@@ -74,8 +74,8 @@ The **Depi Angular Frontend Developer Track** is a comprehensive training progra
 ---
 
 ### 4. JavaScript
-**Hours**: 15 (9 Online, 6 Physical)  
-**Sessions**: 3 Online, 2 Physical  
+**Hours**: 15 Online
+**Sessions**: 5 Online
 **Description**: Master JavaScript fundamentals to implement programming logic, manipulate the DOM, and handle events in web applications.  
 **Sessions**:
 - **Session 1**: Introduction to JavaScript (Variables, Arrays, Loops, Functions, DOM Basics)
@@ -86,8 +86,8 @@ The **Depi Angular Frontend Developer Track** is a comprehensive training progra
 ---
 
 ### 5. TypeScript
-**Hours**: 6 (3 Online, 3 Physical)  
-**Sessions**: 1 Online, 1 Physical  
+**Hours**: 6  Online  
+**Sessions**: 2 Online  
 **Description**: Learn TypeScript’s type system and advanced features to build robust, scalable Angular applications.  
 **Sessions**:
 - **Session 1**: Introduction to TypeScript (Setup, Syntax, Basic Types)
@@ -100,8 +100,8 @@ The **Depi Angular Frontend Developer Track** is a comprehensive training progra
 ---
 
 ### 6. Bootstrap
-**Hours**: 12 (9 Online, 3 Physical)  
-**Sessions**: 3 Online, 1 Physical  
+**Hours**: 12 Online  
+**Sessions**: 4 Online
 **Description**: Develop responsive user interfaces using Bootstrap’s components and grid system.  
 **Sessions**:
 - **Session 1**: Overview of Bootstrap (Setup, Layouts, Forms, Browser Compatibility)
@@ -114,8 +114,8 @@ The **Depi Angular Frontend Developer Track** is a comprehensive training progra
 ---
 
 ### 7. Angular
-**Hours**: 33 (21 Online, 12 Physical)  
-**Sessions**: 7 Online, 4 Physical  
+**Hours**: 33 Online 
+**Sessions**: 11 Online  
 **Description**: Master Angular to build dynamic, responsive web applications with advanced techniques and best practices.  
 **Sessions**:
 - **Session 1**: Introduction to Angular (Architecture, CLI, First Application)
@@ -131,8 +131,8 @@ The **Depi Angular Frontend Developer Track** is a comprehensive training progra
 ---
 
 ### 8. Introduction to Backend: Node.js + Express
-**Hours**: 9 (6 Online, 3 Physical)  
-**Sessions**: 2 Online, 1 Physical  
+**Hours**: 9 Online 
+**Sessions**: 3 Online 
 **Description**: Learn to build server-side applications and RESTful APIs using Node.js and Express, integrated with Angular.  
 **Sessions**:
 - **Session 1**: Introduction to Node.js and Express (Setup, Routing, NPM)
@@ -189,8 +189,8 @@ The **Depi Angular Frontend Developer Track** is a comprehensive training progra
 ---
 
 ### 13. Capstone Project
-**Hours**: 3 (3 Physical)  
-**Sessions**: 1 Physical  
+**Hours**: 3  online 
+**Sessions**: 1 online  
 **Description**: Apply all learned skills to build a complete Angular application, integrating front-end and back-end technologies, with proper documentation, testing, and deployment.  
 **Benefits**: Showcase your skills with a professional-grade project for your portfolio.
 
