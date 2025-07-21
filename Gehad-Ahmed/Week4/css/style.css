@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    
+   
+    background-color: #f1f1f2;
+    height: 2000PX;
+}
+:root{
+    --header-color:#69bfd3;
+    --logo-color:#f68b1e;
+}
+.bg-banner{
+    background-color: var(--header-color);
+}
+.inner-banner{
+    margin: 0 37px;
+}
+.banner-a{
+    position: relative;
+    padding-top: 4%;
+    width: 100%;
+    display: inline-block;
+}
+.img-banner
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+.head-info{
+    background-color: #f1f1f2;
+}
+.jumia-svg{
+    fill: var(--logo-color);
+        font-size: .75rem;
+
+
+}
+.hovered-icon{
+    transition: all 0.3s ease-in-out;
+       
+}
+.left span{
+    color: var(--logo-color);
+
+}
+.left:hover{
+    text-decoration: underline;
+    color: var(--logo-color);
+}
+.hovered-icon:hover{
+     opacity: .2;
+}
+.seprator{
+    height: 15px; 
+    width: 1px;
+    background-color: #75757a;
+}
+.lang-eng{
+    opacity: 0.2;
+}
+.lang-eng ,.lang-arb ,.left span{
+    font-size: 0.75rem;
+    
+}
+.lang-eng span ,.lang-arb span {
+    color: rgba(37, 37, 37, 0.808);
+
+}
+
+.logo-content{
+    background-color: #f68b1e;
+    font-size: .875rem;
+}
+/* //////main header////////// */
+.main-container{
+    position: relative;
+}
+.header{
+   box-shadow:  0 4px 4px -4px rgba(0,0,0,.12);
+}
+.bg-header{
+    position: sticky;
+    background-color: white;
+    width: 100%;
+    top:0;
+    z-index: 1000;
+
+}
+
+.btn-search{
+    background-color: #f68b1e;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),inset 0 0 0 2px #af6315;
+    padding:0 16px;
+    font-size:.875rem;
+
+
+    }
+.btn-search:hover{
+     color:white ;
+     background-color: #af6315;
+
+}
+
+.nav-item .nav-link  {
+    color: #313133;
+    
+}
+.nav-item .nav-link svg{
+    fill: #313133 !important;
+}
+.dropdown-toggle::after {
+    display: none !important;
+}
+.dropdown-links{
+    margin-right: 16px;
+}
+.dropdown-menu{
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    border: none;
+}
+
+
+/* ////////media query//////// */
+
+
+
+
+@media(max-width:425px ){
+   
+    .head-info{
+        display: none;
+    }
+
+}
