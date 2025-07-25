@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="assets/styles.css">
+	<link rel="icon" type="image/ico" sizes="any" href="https://www.jumia.com.eg/assets_he/favicon.87f00114.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+	<title>Jumia navbar</title>
+</head>
+
+<body>
+
+	<nav>
+		<div class="first-nav">
+			<div class="container">
+				<img class="nav-banner" src="assets/images/banner.png" alt="nav-banner">
+			</div>
+		</div>
+		<div class="sec-nav">
+			<div class="container">
+				<div class="sec-left">
+					<a href="https://sell.jumia.com/en/start-now/" class="sell-link" target="_blank">
+						<img src="assets/images/star.svg" alt="sell now">
+						Sell on Jumia</a>
+				</div>
+				<div class="sec-center">
+					<img src="assets/images/jumia.svg" class="jumia-img" alt="jumia">
+
+					<a href="https://pay.jumia.com.eg/?utm_source=jumia&utm_medium=mall&utm_campaign=Venturebar" class="pay-link"
+						title="Jumia Pay" target="_blank">
+						<img src="assets/images/pay.svg" class="pay-img" alt="pay">
+					</a>
+				</div>
+				<div class="lang-right">
+					<span><a href="https://www.jumia.com.eg/">
+							<img src="assets/images/eng.svg" class="eng-img" alt="English">
+							English
+						</a></span>
+					<span><a href="https://www.jumia.com.eg/ar/">
+							<img src="assets/images/egy.svg" class="ara-img" alt="Arabic">
+							عربي
+						</a></span>
+				</div>
+			</div>
+		</div>
+
+	</nav>
+	<!-- Start main navbar -->
+	<div class="main-nav">
+		<div class="container">
+			<a href="https://www.jumia.com.eg/">
+				<img src="assets/images/jumia.svg" class="jumia-link" alt="jumia">
+			</a>
+			<form class="search" action="/submit" method="get">
+				<div class="find">
+					<img class="search-svg" src="assets/images/search.svg" alt="">
+					<input type="text" class="search-input" name="search-input"
+						placeholder="Search products, brands and categories">
+				</div>
+				<button type="submit" class="search-btn">Search</button>
+			</form>
+
+			<details class="account-menu">
+				<summary class="account-btn">👤Account<span class="arrow">▾</span></summary>
+				<div class="dropdown">
+					<button class="sign-in-btn">Sign In</button>
+					<a href="#">👤 My Account</a>
+					<a href="#">📦 Orders</a>
+					<a href="#">❤️ Wishlist</a>
+				</div>
+			</details>
+			<details class="help-menu">
+				<summary>
+					<span class="icon">❔</span> Help <span class="arrow">▾</span>
+				</summary>
+				<div class="dropdown">
+					<span><a href="#">Help Center</a></span>
+					<span><a href="#">Place an Order</a></span>
+					<span><a href="#">Pay for Your Order</a></span>
+					<span><a href="#">Track Your Order</a></span>
+					<span><a href="#">Cancel an Order</a></span>
+					<span><a href="#">Create a Return</a></span>
+					<button class="live-chat">💬 Live Chat</button>
+				</div>
+			</details>
+			<a href="#" class="cart-button">
+				<span class="cart-icon">🛒</span>
+				<span class="cart-text">Cart</span>
+			</a>
+
+		</div>
+	</div>
+
+</body>
+
+</html>
