@@ -1,0 +1,155 @@
+@media (max-width: 1400px) {
+    .container {
+        width: 1140px;
+    }
+
+    /* NAVBAR */
+    nav .container button {
+        margin-left: 100px;
+    }
+
+    /* HEADER */
+    header .image-container img {
+        width: 800px;
+    }
+}
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    .container {
+        width: 960px;
+    }
+
+    /* NAVBAR */
+
+    nav .container button {
+        margin-left: 0;
+    }
+
+    nav .container details {
+        margin: 0 auto;
+    }
+
+    /* HEADER */
+    header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .container .text-container {
+        width: 100%;
+    }
+
+    header .container .text-container .links {
+        width: 30%;
+    }
+
+    header .container .text-container {
+        order: 2;
+        margin-top: 30px;
+    }
+
+    header .image-container {
+        order: 1;
+    }
+
+    header .image-container img {
+        position: relative;
+        width: 750px;
+    }
+
+    header .container .text-container .links {
+        bottom: -25px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+
+    /* HEADER */
+    header .image-container img {
+        width: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .container,
+    nav .container details ul {
+        width: 540px;
+    }
+
+    /* NAVBAR */
+    nav .container button {
+        margin-left: 8%;
+    }
+
+    nav .container details.d-flex {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    nav .container details,
+    nav .container details ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav .container details .nav-links-container {
+        background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 100%;
+        z-index: 3;
+    }
+
+    nav .container details ul {
+        margin: 0 auto;
+        padding-bottom: 5px;
+    }
+
+    nav .container details ul li {
+        padding: 0;
+    }
+
+    /* HEADER */
+    header .container .text-container .links {
+        width: 60%;
+    }
+
+    header .image-container img {
+        width: 500px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .container,
+    nav .container details ul {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    /* NAVBAR */
+    nav .container details ul {
+        left: 20px;
+    }
+
+    /* HEADER */
+    header .container .text-container .links {
+        width: 80%;
+    }
+
+    header .image-container img {
+        width: 350px;
+    }
+}

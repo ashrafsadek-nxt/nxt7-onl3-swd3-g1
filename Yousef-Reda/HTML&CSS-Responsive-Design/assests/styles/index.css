@@ -1,0 +1,131 @@
+/* GENERAL RULES */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+    height: 100vh;
+    /* background-image: url('../images/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds-wallpapers.jpg'); */
+    background-image: url('../images/woman-7740264.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .login {
+    text-align: center;
+    border: 1px solid white;
+    padding: 25px 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.541);
+    width: 400px;
+}
+
+header .login input:not(input[type='checkbox']) {
+    display: block;
+    padding-bottom: 10px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    width: 80%;
+    margin: 40px auto;
+    caret-color: white;
+}
+
+header .login input:not(input[type='checkbox']):focus {
+    outline: none;
+}
+
+header .login input:not(input[type='checkbox'])::placeholder {
+    color: white;
+}
+
+header .login form>div {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header .login form>div {
+    font-size: 14px;
+}
+
+header .login a.special {
+    display: block;
+    width: 80%;
+    padding: 15px 20px;
+    margin: 40px auto;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+}
+
+header .login a.special:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+
+header .login p {
+    width: 80%;
+    margin: auto;
+}
+
+header .login p span {
+    padding-left: 10px;
+}
+
+@media (max-width: 576px) {
+    header .login {
+        width: 70%;
+    }
+
+    header .login form>div span {
+        font-size: 11px;
+    }
+
+    header .login p,
+    header .login p span {
+        width: max-content;
+    }
+
+    header .login p {
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
