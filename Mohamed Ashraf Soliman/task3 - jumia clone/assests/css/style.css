@@ -1,0 +1,233 @@
+:root {
+    --nav1-color: #F91A00;
+    --nav2-color: #F1F1F2;
+    --nav3-color: white;
+    --jumia-color: #FAA033;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--nav2-color);
+}
+
+header {
+    height: fit-content;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 3.5vh;
+}
+
+nav.offers {
+    align-items: center;
+    width: 100%;
+    padding: 0 3vw;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: var(--nav1-color);
+}
+
+nav.offers img {
+    height: 5vh;
+}
+
+nav.offers .hotline {
+    background-color: var(--jumia-color);
+    width: 10vw;
+    text-align: center;
+}
+
+nav.offers .hotline .call {
+    font-size: 20px;
+}
+
+nav.offers .limited {
+    width: 50%;
+    text-align: left;
+}
+
+nav.secondnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nav2-color);
+    padding: 0 3vw;
+}
+
+nav.secondnav .language {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+nav.secondnav .language > * {
+    padding: 0 15px;
+}
+
+nav.secondnav .language a, nav.secondnav .sell {
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 10px;
+}
+
+nav.secondnav .language .en {
+    border-right: 1px solid grey;
+    opacity: 0.5;
+}
+
+nav.secondnav .language img {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+}
+
+.jumiapay {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    padding: 1vh;;
+}
+
+.jumiapay img {
+    height: 1.5vh;
+}
+
+nav.secondnav .sell img {
+    height: 15px;
+}
+
+nav.mainnav {
+    position: sticky;
+    top: 0;
+    background-color: var(--nav3-color);
+    align-items: center;
+    padding: 2vh 3vw;
+}
+
+nav.mainnav .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    padding: 0 3vw;
+}
+
+nav.mainnav .options ul {
+    list-style: none;
+    position: absolute;
+    background-color: var(--nav3-color);
+    padding: 2vw;
+    display: none;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+nav.mainnav .options a, .toplevel {
+    display: inline-flex;
+    gap: 1vw;
+    width: 8vw;
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 1vh;
+    cursor: pointer;
+}
+
+nav.mainnav .options a:hover, .toplevel:hover {
+    color: var(--jumia-color);
+}
+
+nav.mainnav .options .toplevel::after {
+    content: "^";
+    transform: rotate(180deg) translate(0, 5px);
+    position: relative;
+    right: 0;
+}
+
+nav.mainnav form {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1vw;
+}
+
+nav.mainnav form input {
+    width: 85%;
+    padding: 1.5vh;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+button , .button {
+    background-color: var(--jumia-color);
+    padding: 1.5vh;
+    text-align: center;
+    color: white !important;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    gap: 2vw;
+    padding: 2vh 5vw;
+}
+
+.slider img {
+    width: 60vw;
+}
+
+aside.categories ul {
+    list-style: none;
+    background-color: var(--nav3-color);
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    height: 57vh;
+}
+
+aside.categories ul li {
+    flex-grow: 1;
+}
+
+aside.categories ul a {
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 1vh;
+}
+
+aside.categories ul a:hover {
+    color: var(--jumia-color);
+}
+
+.products {
+    padding: 5vh;
+}
+
+.product {
+    display: inline-block;
+}
+
+.product img {
+    width: 30vw;
+}

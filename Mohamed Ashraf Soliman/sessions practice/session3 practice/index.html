@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>DEPI session 3</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <section class="form-field">
+            <label for="firstname">first name</label>
+            <input type="text" name="firstname" id="firstname" placeholder="first name">
+        </section>
+        <section class="form-field">
+            <label for="lastname">last name</label>
+            <input type="text" name="lastname" id="lastname" placeholder="last name">
+        </section>
+        <section class="form-field">
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" placeholder="email@example.com">
+        </section>
+        <section class="form-field">
+            <label for="password">password</label>
+            <input type="password" name="password" id="password">
+        </section>
+        <section class="form-field">
+            <label for="age">age</label>
+            <input type="number" name="age" id="age">
+        </section>
+        <section class="form-field">
+            <label for="phone">phone</label>
+            <input type="tel" name="phone" id="phone">
+        </section>
+        <section class="form-field">
+            <label for="website">website</label>
+            <input type="url" name="website" id="website" placeholder="https://www.example.com">
+        </section>
+        <section class="form-field">
+            <label for="rate">rate</label>
+            <input type="range" name="website" min="0" max="10" id="rate">
+        </section>
+        <section class="form-field">
+            <label for="birthdate">birth date</label>
+            <input type="date" name="birthdate" id="birthdate">
+        </section>
+        <section class="form-field">
+            <label for="month">month</label>
+            <input type="month" name="month" id="month">
+        </section>
+        <section class="form-field">
+            <label for="time">time</label>
+            <input type="time" name="time" id="time">
+        </section>
+        <section class="form-field">
+            <label for="color">color</label>
+            <input type="color" name="color" id="color">
+        </section>
+        <section class="form-field">
+            <label for="file">img</label>
+            <input type="file" name="img" id="file">
+        </section>
+        <section class="form-field">
+            <label for="description">description</label>
+            <textarea name="description" name="description" id="description"></textarea>
+        </section>
+        <section class="form-field">
+            <label for="city">city</label>
+            <select name="city" id="city">
+                <option value="" selected>select city</option>
+                <option value="ca">cairo</option>
+                <option value="gi">giza</option>
+                <option value="alx">alexandria</option>
+                <option value="as">aswan</option>
+            </select>
+        </section>
+        <section class="form-field">
+            <label for="country">country</label>
+            <input type="text" id="country" list="countries">
+            <datalist id="countries">
+                <option value="eg">egypt</option>
+                <option value="sa">saudi arabia</option>
+                <option value="su">sudan</option>
+                <option value="jo">jordan</option>
+            </datalist>
+        </section>
+        <section class="form-field">
+            <p>gender</p>
+            <input type="radio" name="gender" id="male" checked>
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">female</label>
+        </section>
+        <section class="form-field">
+            <p>sports</p>
+            <input type="checkbox" name="sports" id="football" value="football" checked>
+            <label for="football">football</label>
+            <input type="checkbox" name="sports" id="swimming" value="swimming">
+            <label for="swimming">swimming</label>
+            <input type="checkbox" name="sports" id="boxing" value="boxing">
+            <label for="boxing">boxing</label>
+        </section>
+        <section class="form-field">
+            <label for="search">search</label>
+            <input type="search" id="search">
+        </section>
+        <input type="reset" value="clear">
+        <input type="submit" value="save">
+    </form>
+</body>
+</html>

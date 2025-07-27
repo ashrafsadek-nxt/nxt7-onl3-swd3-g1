@@ -1,0 +1,46 @@
+form {
+    margin: 2vh 5vw;
+}
+.form-field {
+    border: 1px solid;
+    border-radius: 1vh;
+    padding: 1vh 2vw;
+    margin: 1vh;
+    text-transform: capitalize;
+}
+
+.form-field label {
+    display: inline-block;
+    width: 25%;
+}
+
+.form-field input, .form-field textarea, .form-field select {
+    display: inline-block;
+    width: 60%;
+    padding: 1vh;
+    border-radius: 1vh;
+}
+
+.form-field [type="radio"], .form-field [type="checkbox"] {
+    width: auto;
+}
+
+[type="submit"], [type="reset"] {
+    background-color: dodgerblue;
+    border: 1px solid rgb(13, 76, 139);
+    padding: 1vh;
+    border-radius: 1vh;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+[type="submit"]:hover, [type="reset"]:hover {
+    background-color: rgb(13, 76, 139);
+}
+
+[type="color"] {
+    padding: 0 0.2vh !important;
+    width: 3vw !important;
+}
