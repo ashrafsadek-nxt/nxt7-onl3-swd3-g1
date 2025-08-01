@@ -1,0 +1,22 @@
+form {
+    padding: 50px;
+}
+
+form label {
+    display: inline-block;
+    width: 125px;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+form + p {
+    font-weight: bold;
+    color: red;
+    font-size: 30px;
+}
+
+form input[type='submit'] {
+    padding: 10px 20px;
+}

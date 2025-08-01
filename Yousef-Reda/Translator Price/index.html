@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+    <form onsubmit="handleSubmit(event)">
+        <div>
+            <label for="native">Native Language:</label>
+            <input type="text" name="native" id="native" list="native-list">
+            <datalist id="native-list">
+                <option value="Arabic">
+                <option value="English">
+                <option value="French">
+            </datalist>
+        </div>
+        <div>
+            <label for="target">Target Language:</label>
+            <input type="text" name="target" id="target" list="target-list">
+            <datalist id="target-list">
+                <option value="Arabic">
+                <option value="English">
+                <option value="French">
+                <option value="Chinese">
+            </datalist>
+        </div>
+        <div>
+            <label for="count">Count:</label>
+            <input type="number" name="count" id="count">
+        </div>
+        <input type="submit" value="Get Price">
+    </form>
+    <p id="price"></p>
+    <script src="assets/script/main.js"></script>
+
+</body>
+
+</html>
