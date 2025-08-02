@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="styles.css">
+	<title>lecture 3 edited</title>
+</head>
+
+<body>
+	native language <input type="text" id="native"><br><br>
+	<!-- target language <input type="text" id="target"><br><br> -->
+	target language
+	<select name="" id="target">
+		<option value="English">English</option>
+		<option value="French">French</option>
+		<option value="German">German</option>
+		<option value="Chinese">Chinese</option>
+	</select><br><br>
+	word count <input type="number" id="count"><br><br>
+	<button id="calcPrice" ondblclick="price()">Get Price</button>
+	<h3 id="showPrice"></h3>
+	<p>=======================================</p>
+	username <input type="text" name="" id="username" oninput="user()">
+	<br><br>
+	<div id="container">
+		password <input type="password" name="" id="password">
+		<br><br>
+		<button id="next" onmouseleave="login()">Login</button>
+	</div>
+	<h3 id="result"></h3>
+	<script src="script.js"></script>
+</body>
+
+</html>
