@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet" />
+
+    <title>landing page food delivery app</title>
+  </head>
+  <body>
+    <!-- <i class="em em-star2" aria-role="presentation" aria-label="GLOWING STAR"></i>
+<i class="em em-star-struck" aria-role="presentation" aria-label="GRINNING FACE WITH STAR EYES"></i>
+<i class="em em-confetti_ball  " aria-role="presentation" aria-label="CONFETTI BALL"></i> -->
+    <!--///////////////////////////////// banner///////////////////////// -->
+
+    <div class="container">
+      <div class="banner row d-flex align-items-center justify-content-between">
+        <div class="banner-left col-md-4">
+          <div class="d-flex align-items-center justify-content-center">
+            <i
+              class="em em-star2 mx-1"
+              aria-role="presentation"
+              aria-label="GLOWING STAR"
+            ></i>
+            <p class="mb-0">
+              Get 5% Off your first order,
+              <span class="promo-banner text-decoration-underline"
+                >Promo: ORDER5</span
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="banner-middle col-md-4">
+          <div class="d-flex align-items-center justify-content-center">
+            <i class="fa-solid fa-location-dot mx-1"></i>
+            <p class="mb-0">
+              Regent Street, A4, A4201, London
+              <a href="" class="promo-banner text-decoration-underline mx-1"
+                >Change Location</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="banner-right col-md-4 py-3">
+          <div class="right d-flex align-items-center justify-content-between">
+            <div
+              class="right-1 d-flex align-items-center justify-content-center"
+            >
+              <div class="">
+                <a href="">
+                  <i class="fa-solid fa-basket-shopping text-white"></i
+                ></a>
+              </div>
+            </div>
+            <div
+              class="right-2 d-flex align-items-center justify-content-center"
+            >
+              23 items
+            </div>
+            <div
+              class="right-3 d-flex align-items-center justify-content-center"
+            >
+              GBP 79.89
+            </div>
+            <div
+              class="right-4 p-3 banner-arrow d-flex align-items-center justify-content-center"
+            >
+              <div class=" ">
+                <i class="fa-solid fa-arrow-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ///////////////////nav//////////////////////// -->
+
+      <!-- ////////////////categories/////////////////////// -->
+    </div>
+
+    <header class="header my-3 bg-header">
+      <div class="header-content container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container px-0">
+            <!-- Logo -->
+            <a
+              class="navbar-brand logo d-flex align-items-center justify-content-center"
+              href="#"
+              ><img src="assets/LOGO 1.png" alt="order-uk logo"
+            /></a>
+
+            <!-- Burger menu button -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mainNavbar"
+              aria-controls="mainNavbar"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar content -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+              <!-- Right Links -->
+              <ul class="navbar-nav mx-1 mb-2 mb-lg-0">
+                <li class="nav-item active">
+                  <a
+                    class="nav-link d-flex align-items-md-center justify-content-lg-center justify-content-start"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                  >
+                    <span class="text-capitalize">home</span>
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex align-items-center justify-content-lg-center justify-content-start"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                  >
+                    <span class="text-capitalize"> Browse Menu </span>
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex align-items-center justify-content-lg-center justify-content-start"
+                    href="#"
+                  >
+                    <span class="text-capitalize">Special Offers</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex align-items-center justify-content-lg-center justify-content-start"
+                    href="#"
+                  >
+                    <span class="text-capitalize">Restaurants</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex align-items-center justify-content-lg-center justify-content-start"
+                    href="#"
+                  >
+                    <span class="text-capitalize"> Track Order</span>
+                  </a>
+                </li>
+              </ul>
+
+              <div class="login-btn">
+                <button class="btn btn-black">
+                  <i class="fa-solid fa-user mx-2"></i
+                  ><span class="login-text">login/sign up</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-header container">
+      <div class="row">
+        <div
+          class="col-lg-5 col-12 col-sm-12 d-flex align-items-center justify-content-center"
+        >
+          <div
+            class="main d-flex align-items-center justify-content-center py-5"
+          >
+            <div class="content-main text-white py-5">
+              <p class="p-heading">
+                Order Restaurant food, takeaway and groceries.
+              </p>
+              <h1 class="text-capitalize">
+                Feast Your Senses, <br />
+                <span>Fast and Fresh</span>
+              </h1>
+              <p class="postcode">Enter a postcode to see what we deliver</p>
+              <form action="search.html" class="">
+                <input type="search" class="px-3" placeholder="e.g. EC4R 3TE" />
+                <button
+                  class="btn text-capitalize"
+                  type="submit"
+                  value="search"
+                >
+                  search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 header-imgs">
+          <div class="main-imgs bg-danger">
+            <div class="images">
+              <img src="assets/front-header.png" class="front-img" alt="" />
+              <img src="assets/back-header.png" class="back-img" alt="" />
+            </div>
+            <div class="square">
+              <div class="parent-sqr">
+                <div
+                  class="mini-sqr mt-5 d-flex flex-column align-items-center gap-4"
+                >
+                  <div class="order order-1 bg-light">
+                    <div
+                      class="order-top d-flex ps-2 pe-2 pt-2 mb-1 align-items-center justify-content-between"
+                    >
+                      <img src="assets/LOGO 2.png" class="" alt="" />
+                      <span>now</span>
+                    </div>
+                    <div class="order-content ps-2 pb-2">
+                      <span class="text-capitalize fw-semibold"
+                        >We’ve Received your order!</span
+                      >
+                      <br />
+                      <span class="text-capitalize"
+                        >Awaiting Restaurant acceptance
+                      </span>
+                    </div>
+                  </div>
+                  <div class="order order-1 bg-light align-self-end">
+                    <div
+                      class="order-top d-flex ps-2 pe-2 pt-2 mb-1 align-items-center justify-content-between"
+                    >
+                      <img src="assets/LOGO 2.png" class="" alt="" />
+                      <span>now</span>
+                    </div>
+                    <div class="order-content ps-2 pb-2">
+                      <span class="text-capitalize fw-semibold"
+                        >We’ve Received your order!</span
+                      >
+                      <br />
+                      <span class="text-capitalize"
+                        >Awaiting Restaurant acceptance
+                      </span>
+                    </div>
+                  </div>
+                  <div class="order order-1 ms-5 bg-light">
+                    <div
+                      class="order-top d-flex ps-2 pe-2 pt-2 mb-1 align-items-center justify-content-between"
+                    >
+                      <img src="assets/LOGO 2.png" class="" alt="" />
+                      <span>now</span>
+                    </div>
+                    <div class="order-content ps-2 pb-2">
+                      <span class="text-capitalize fw-semibold"
+                        >We’ve Received your order!</span
+                      >
+                      <br />
+                      <span class="text-capitalize"
+                        >Awaiting Restaurant acceptance
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- /////////////////////deals///////////////////////////// -->
+    <section class="deals mt-5 container">
+      <div class="deal-content">
+        <div class="deal-heading">
+          <h2 class="fw-bold my-4">Up to -40% 🎊 Order.uk exclusive deals</h2>
+        </div>
+        <div class="deals row g-3">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <div class="deal-container bg-info">
+              <img src="assets/order1.png" alt="order deals" />
+              <div
+                class="overlay bg-overlay d-flex align-items-start px-4 pb-3 justify-content-end flex-column"
+              >
+                <span class="res-deal fw-bold">Restaurant</span>
+                <p class="fw-bold">Chef Burgers London</p>
+              </div>
+              <span class="discount">-40%</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <div class="deal-container bg-info">
+              <img src="assets/order2.png" alt="order deals" />
+              <div
+                class="overlay bg-overlay d-flex align-items-start px-4 pb-3 justify-content-end flex-column"
+              >
+                <span class="res-deal fw-bold">Restaurant</span>
+                <p class="fw-bold">Grand Ai Cafe London</p>
+              </div>
+              <span class="discount">-20%</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <div class="deal-container bg-info">
+              <img src="assets/order3.png" alt="order deals" />
+              <div
+                class="overlay bg-overlay d-flex align-items-start px-4 pb-3 justify-content-end flex-column"
+              >
+                <span class="res-deal fw-bold">Restaurant</span>
+                <p class="fw-bold">Grand Ai Cafe London</p>
+              </div>
+              <span class="discount">-17%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- //////////////////catergory//////////////////// -->
+
+    <section class="category mt-5 container">
+      <div class="">
+        <h2 class="my-4 fw-bold">Order.uk Popular Categories 🤩</h2>
+      </div>
+      <div class="d-flex align-items-center justify-content-center">
+        <div
+          class="categort-content row d-flex align-items-center justify-content-center gy-3"
+        >
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="card">
+              <img src="assets/Rectangle 13.png" alt="plate category " />
+              <div class="card-body ps-1 pt-1">
+                <h3 class="fw-bold mb-0">Burgers & Fast food</h3>
+                <span>21 Restaurants</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="card">
+              <img src="assets/Rectangle 15.png" alt="plate category " />
+              <div class="card-body ps-1 pt-1">
+                <h3 class="fw-bold mb-0">Salads</h3>
+                <span>32 Restaurants</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="card">
+              <img src="assets/Rectangle 17.png" alt="plate category " />
+              <div class="card-body ps-1 pt-1">
+                <h3 class="fw-bold mb-0">Pasta & Casuals</h3>
+                <span>4 Restaurants</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="card">
+              <img src="assets/Rectangle 19.png" alt="plate category " />
+              <div class="card-body ps-1 pt-1">
+                <h3 class="fw-bold mb-0">Pizza</h3>
+                <span>32 Restaurants</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="card">
+              <img src="assets/Rectangle 21.png" alt="plate category " />
+              <div class="card-body ps-1 pt-1">
+                <h3 class="fw-bold mb-0">Breakfast</h3>
+                <span>4 Restaurants</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="card">
+              <img src="assets/Rectangle 23.png" alt="plate category " />
+              <div class="card-body ps-1 pt-1">
+                <h3 class="fw-bold mb-0">Soups</h3>
+                <span>32 Restaurants</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ///////////////resturants slider/////////////////////// -->
+
+    <section class="slider-res mt-5">
+      <div class="container">
+        <div class="heading mt-3 mb-3">
+          <h2 class="fw-bold" id="carouselTitle">Popular Restaurants</h2>
+        </div>
+
+        <div class="text-center my-3">
+          <div class="row mx-auto my-auto justify-content-center">
+            <div
+              id="recipeCarousel"
+              class="carousel slide px-0"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <div class="col-lg-2 col-md-4 col-12">
+                    <div class="card p-2">
+                      <div class="card-img">
+                        <img
+                          src="assets/Rectangle 13 (1).png"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="card-body">McDonald’s London</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-lg-2 col-md-4 col-12">
+                    <div class="card p-2">
+                      <div class="card-img">
+                        <img
+                          src="assets/Rectangle 13-1.png"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="card-body">Papa Johns</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-lg-2 col-md-4 col-12">
+                    <div class="card p-2">
+                      <div class="card-img">
+                        <img
+                          src="assets/Rectangle 13-2.png"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="card-body">KFC West London</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-lg-2 col-md-4 col-12">
+                    <div class="card p-2">
+                      <div class="card-img">
+                        <img
+                          src="assets/Rectangle 13-3.png"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="card-body">Texas Chicken</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-lg-2 col-md-4 col-12">
+                    <div class="card p-2">
+                      <div class="card-img">
+                        <img
+                          src="assets/Rectangle 13-4.png"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="card-body">Burger King</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-lg-2 col-md-4 col-12">
+                    <div class="card p-2">
+                      <div class="card-img">
+                        <img
+                          src="assets/Rectangle 13-5.png"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="card-body">Shaurma 1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev w-aut"
+                href="#recipeCarousel"
+                role="button"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+              </a>
+              <a
+                class="carousel-control-next w-aut"
+                href="#recipeCarousel"
+                role="button"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /////////////////////join us////////////////////// -->
+    <section class="join-us">
+      <div class="container">
+        <div
+          class="join-content row d-flex align-items-center justify-content-center g-3"
+        >
+          <div class="col-md-6 col-sm-12">
+            <div class="join-container">
+              <img src="assets/chef1.png" alt="need to join us as partner?" />
+              <div class="partner-overlay d-flex">
+                <div class="part-content">
+                  <span class="res-deal fw-bold">Signup as a business</span>
+                  <p class="fw-bold">Partner with us</p>
+                  <button class="btn text-capitalize my-2 text-white">
+                    get started
+                  </button>
+                </div>
+              </div>
+              <span class="join-span bg-white">Earn more with lower fees</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="join-container">
+              <img src="assets/driver.png" alt="need to join us as partner?" />
+              <div class="partner-overlay d-flex">
+                <div class="part-content">
+                  <span class="res-deal fw-bold">Signup as a rider</span>
+                  <p class="fw-bold">Ride with us</p>
+                  <button class="btn text-capitalize my-2 text-white">
+                    get started
+                  </button>
+                </div>
+              </div>
+              <span class="join-span bg-white">Avail exclusive perks</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ///////////////////about us///////////////////////// -->
+    <section class="about my-5 ">
+      <div class="know-us bg-footer pt-3 pb-5 container my-5">
+        <div class="container-lg">
+          <div
+            class="about-nav row g-3 d-flex align-items-center justify-content-between"
+          >
+            <div class="col-lg-6 col-md-5 col-12">
+              <h3 class="my-5 fw-bold">Know more about us!</h3>
+            </div>
+            <div class="col-lg-6 col-md-7">
+              <div class="about-list">
+                <ul
+                  class="d-flex align-items-center justify-content-between text-capitalize list-unstyled"
+                >
+                  <li>
+                    <a href="" class="text-decoration-none text-black"
+                      >Frequent Questions</a
+                    >
+                  </li>
+                  <li>
+                    <a href="" class="text-decoration-none text-black"
+                      >Who we are?</a
+                    >
+                  </li>
+                  <li>
+                    <a href="" class="text-decoration-none text-black"
+                      >Partner Program
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="text-decoration-none text-black"
+                      >Help & Support</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-content    container">
+            <div class="row bg-about my-auto  ">
+              <div class="col-lg-5 col-md-12 col-12">
+                <div class="about-info text-center px-3 py-5 my-5">
+                    <p class="fw-bold mb-4">How does Order.UK work?</p>
+                    <div class="question d-flex  align-items-center justify-content-between flex-column gap-4">
+                      <span>What payment methods are accepted?</span>
+                      <span>Can I track my order in real-time?</span>
+                      <span>Are there any special discounts or<br>promotions available?</span>
+                      <span>Is Order.UK available in my area?</span>
+                    </div>
+              </div>
+
+              </div>
+              <!-- <div class="seprator"></div> -->
+              <div class="col-lg-7 col-md-12 col-12">
+                <div class="samples row text-center px-2 my-5 py-5 d-flex align-items-center justify-content-around">
+                  <div class="col-md-4 col-sm-12">
+                    <div class="samples-content bg-footer mt-4 p-3">
+                      <h6>Place an Order!</h6>
+                      <img src="assets/order-food 1.png" class="img-about" alt="">
+                      <p>Place order through our<br>website or Mobile app</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12">
+                    <div class="samples-content bg-footer mt-4 p-3">
+                      <h6>Track Progress</h6>
+                      <img src="assets/food 1.png" class="img-about" alt="">
+                      <p>Your can track your order,<br> status with delivery time</p>
+                    </div>
+
+                  </div>
+                  <div class="col-md-4 col-sm-12">
+                    <div class="samples-content bg-footer mt-4 p-3">
+                      <h6>Get your Order!</h6>
+                      <img src="assets/order 1.png" class="img-about" alt="">
+                      <p>Receive your order at a<br> fast speed!</p>
+                    </div>
+
+                  </div>
+                    
+                    
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+           
+           
+        </div>
+          <!-- <div class="inner-seprator"></div> -->
+        
+      </div>
+    </section>
+
+    <!-- /////////////////footer//////////////////////////// -->
+    <footer class="bg-footer">
+      <div class="footer container mt-5">
+        <div
+          class="footer-content mt-5 py-5 row g-4 d-flex align-items-center justify-content-center"
+        >
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <div class="footer-sides footer-start">
+              <div class="logo-2 my-5">
+                <img src="assets/LOGO 2 (1).png" class="" alt="" />
+              </div>
+              <div
+                class="downloods mt-3 d-flex align-items-start gap-1 justify-content-start"
+              >
+                <div class="apple">
+                  <a
+                    href=" "
+                    class="text-decoration-none px-2 gap-2 text-white d-flex align-items-center justify-content-center"
+                  >
+                    <i class="fa-brands fa-apple"></i>
+                    <p class="">downlood on the<span>App Store</span></p></a
+                  >
+                </div>
+                <div class="google">
+                  <a
+                    href=" "
+                    class="text-decoration-none px-2 gap-2 text-white d-flex align-items-center justify-content-center"
+                  >
+                    <i class="fa-brands fa-google-play"></i>
+                    <p class="">git it on<span>google play</span></p></a
+                  >
+                </div>
+              </div>
+              <p class="company my-3">
+                Company # 490039-445, Registered with<br />
+                of companies.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <div class="footer-sides footer-middle">
+              <h6 class="my-4 fw-bold">Get Exclusive Deals in your Inbox</h6>
+              <form action="Subscribe.html" class="my-4 w-100">
+                <input
+                  type="search"
+                  class="px-3"
+                  placeholder="youremail@gmail.com"
+                />
+                <button
+                  class="btn text-capitalize"
+                  type="submit"
+                  value="search"
+                >
+                  Subscribe
+                </button>
+              </form>
+              <span class="email-policy my-3"
+                >we wont spam, read our email policy</span
+              >
+              <div
+                class="social my-4 d-flex align-items-center justify-content-start"
+              >
+                <a href="" class="text-decoration-none"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+                <a href="" class="text-decoration-none"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="" class="text-decoration-none">
+                  <i class="fa-brands fa-tiktok"></i
+                ></a>
+                <a href="" class="text-decoration-none"
+                  ><i class="fa-brands fa-snapchat"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <div
+              class="footer-sides row d-flex align-items-center gy-3 justify-content-between"
+            >
+              <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="legal-pages">
+                  <h6 class="mb-4 fw-bold text-capitalize">legal pages</h6>
+                  <div
+                    class="pages d-flex align-items-start justify-content-start flex-column gap-4"
+                  >
+                    <a href="">Terms and conditions</a>
+                    <a href="">Privacy</a>
+                    <a href="">Cookies</a>
+                    <a href="">Modern Slavery Statement</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="important-links">
+                  <h6 class="mb-4 fw-bold text-capitalize">Important Links</h6>
+                  <div
+                    class="links d-flex align-items-start justify-content-start flex-column gap-4"
+                  >
+                    <a href="">Get help</a>
+                    <a href="">Add your restaurant</a>
+                    <a href="">Sign up to deliver</a>
+                    <a href="">Create a business account</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copy-rights bg-rights">
+        <div class="container">
+          <div
+            class="rights row g-3 d-flex align-items-center justify-content-center"
+          >
+            <div class="col-lg-6 col-12">
+              <p>Order.uk Copyright 2024, All Rights Reserved.</p>
+            </div>
+            <div class="col-lg-6">
+              <div class="terms">
+                <ul>
+                  <li>
+                    <a href="">Privacy Policy</a>
+                  </li>
+                  <li><a href="">Terms</a></li>
+                  <li><a href="">Pricing</a></li>
+                  <li>
+                    <a href="">Do not sell or share my personal information</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
