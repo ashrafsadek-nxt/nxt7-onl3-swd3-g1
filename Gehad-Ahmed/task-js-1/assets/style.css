@@ -1,0 +1,12 @@
+.bg-footer{
+    background-color: #D9D9D9;
+}
+.task-content{
+    border-radius: 3px;
+    transition: all 0.5s ease-in ;
+    padding: 3px;
+    cursor: pointer;
+}
+.task-content:hover{
+    transform: scale(1.02);
+}
