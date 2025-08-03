@@ -1,4 +1,4 @@
-![Full Page Screenshot](./assets/imgs/screan of task.png)
+![Full screan Screenshot](./assets/imgs/screan of task.png)
 
 # js-task show  img src from loop
 
