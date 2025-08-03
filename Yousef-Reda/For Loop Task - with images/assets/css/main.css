@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    background-color: crimson;
+}
+
