@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snap Remote Work</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">snap</div>
+
+      <input type="checkbox" id="menu-toggle" />
+
+      <label for="menu-toggle" class="hamburger-btn">
+        <img src="./assets/image/icon-menu.svg" alt="Open menu" />
+      </label>
+
+      <label for="menu-toggle" class="close-btn">
+        <img src="./assets/image/icon-close-menu.svg" alt="Close menu" />
+      </label>
+
+      <div class="mobile-menu">
+        <nav>
+          <ul class="nav-links">
+            <li class="dropdown">
+              <a href="#">Features ▾</a>
+              <ul class="dropdown-menu">
+                <li><img src="./assets/image/icon-todo.svg" alt="" /> Todo List</li>
+                <li><img src="./assets/image/icon-calendar.svg" alt="" /> Calendar</li>
+                <li><img src="./assets/image/icon-reminders.svg" alt="" /> Reminders</li>
+                <li><img src="./assets/image/icon-planning.svg" alt="" /> Planning</li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#">Company ▾</a>
+              <ul class="dropdown-menu">
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+              </ul>
+            </li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+
+        <div class="auth-buttons">
+          <a href="#">Login</a>
+          <a href="#" class="register">Register</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="hero">
+      <div class="hero-text">
+        <h1><span>Make</span><br /><strong>remote work</strong></h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button>Learn more</button>
+        <div class="partners">
+          <img src="./assets/image/client-databiz.svg" alt="Databiz" />
+          <img src="./assets/image/client-audiophile.svg" alt="Audiophile" />
+          <img src="./assets/image/client-meet.svg" alt="Meet" />
+          <img src="./assets/image/client-maker.svg" alt="Maker" />
+        </div>
+      </div>
+
+      <div class="hero-graphic">
+        <img class="hero-img" src="./assets/image/image-hero-mobile.png" alt="Person with laptop" />
+      </div>
+    </main>
+
+    <div class="overlay"></div>
+  </body>
+</html>

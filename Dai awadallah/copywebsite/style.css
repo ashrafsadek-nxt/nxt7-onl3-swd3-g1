@@ -1,0 +1,205 @@
+/*==================================================
+  Global Styles
+====================================================*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background: #fdfdfd;
+  color: #111;
+}
+
+/*==================================================
+  Mobile-First Styles (Default)
+====================================================*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Hide desktop navigation and authentication buttons */
+.navbar .nav-links,
+.navbar .auth-buttons {
+  display: none;
+}
+
+/* Hamburger menu button */
+.hamburger-btn {
+  cursor: pointer;
+}
+
+/* Hide the checkbox and close button */
+#menu-toggle,
+.close-btn {
+  display: none;
+}
+
+/* Mobile menu container */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: -250px; /* Start off-screen */
+  width: 250px;
+  height: 100%;
+  background: white;
+  z-index: 10;
+  transition: right 0.3s ease-in-out;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu .nav-links,
+.mobile-menu .auth-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Overlay for the background */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 9;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s;
+}
+
+/* Control menu state with the checkbox */
+#menu-toggle:checked ~ .mobile-menu {
+  right: 0;
+}
+#menu-toggle:checked ~ .overlay {
+  visibility: visible;
+  opacity: 1;
+}
+#menu-toggle:checked ~ .hamburger-btn {
+  display: none;
+}
+#menu-toggle:checked ~ .close-btn {
+  display: block;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+/* Hero section on mobile */
+.hero {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-graphic {
+  max-width: 100%;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero-text {
+  max-width: 100%;
+  margin-top: 40px;
+}
+
+.partners {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/*==================================================
+  Desktop Styles
+====================================================*/
+@media (min-width: 768px) {
+  .navbar {
+    padding: 20px 50px;
+  }
+  
+  /* Hide mobile-specific elements */
+  #menu-toggle,
+  .hamburger-btn,
+  .close-btn,
+  .mobile-menu,
+  .overlay {
+    display: none;
+  }
+
+  /* Show desktop navigation and authentication buttons */
+  .navbar .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+  }
+  .navbar .auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  /* Desktop dropdown menus */
+  .nav-links li.dropdown {
+    position: relative;
+  }
+  .nav-links .dropdown-menu {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    list-style: none;
+    padding: 10px;
+    white-space: nowrap;
+  }
+  .nav-links .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  /* Desktop Hero section */
+  .hero {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding: 60px 80px;
+  }
+
+  .hero-graphic {
+    max-width: 45%;
+  }
+
+  /* Change the hero image for desktop */
+  .hero-img {
+    content: url(./assets/image/image-hero-desktop.png);
+  }
+
+  .hero-text {
+    max-width: 45%;
+    margin-top: 0;
+  }
+  
+  .hero-text h1 {
+    font-size: 48px;
+  }
+  
+  .partners {
+    justify-content: flex-start;
+  }
+}
