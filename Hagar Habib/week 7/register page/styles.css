@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #c9eaff, #a3d8ff);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#login-form {
+  background-color: #fff;
+  border: 3px solid #87cdff;
+  border-radius: 15px;
+  width: fit-content;
+  height: 200px;
+  padding: 30px;
+}
+
+.signIn-title {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+  color: rgb(77, 109, 204);
+}
+input {
+  height: 20px;
+}
+button {
+  font-size: 15px;
+  padding: 0;
+}
+#usernameSpn {
+  line-height: 35px;
+  font-size: 0.7rem;
+  letter-spacing: 0.1px;
+}
+#password {
+  display: none;
+}
+#pwd {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+#pwdSpn {
+  margin-bottom: 8px;
+  display: block;
+  width: 180px;
+  font-size: 0.7rem;
+  letter-spacing: 0.1px;
+}
