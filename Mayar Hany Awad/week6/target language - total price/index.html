@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        <div class="native-languages">
+            <label for="native">Native Language</label>
+            <select name="native-language" id="native">
+                <option value="arabic">Arabic</option>
+                <option value="english">English</option>
+                <option value="french">French</option>
+                <option value="german">German</option>
+            </select>
+        </div>
+        <br />
+        <div class="target-languages">
+            <label for="target">Target Language</label>
+            <select name="target-language" id="target">
+                <option value="arabic">Arabic</option>
+                <option value="english">English</option>
+                <option value="french">French</option>
+                <option value="german">German</option>
+            </select>
+        </div>
+        <br />
+        <div class="word-count">
+            <label for="count">Word Count</label>
+            <input type="number" id="count" />
+        </div>
+        <br />
+        <button class="total" onclick="GetTotal()">Get Total Price</button>
+        <br />
+        <h2 id="total-price"></h2>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+</html>
