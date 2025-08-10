@@ -1,0 +1,74 @@
+html {
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 10% auto;
+    width: 80%;
+    display: grid;
+    justify-content: center;
+}
+
+form {
+    width: 50vw;
+}
+
+.form-field {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.form-field input {
+    padding: 20px;
+    margin: 20px;
+    flex-grow: 1;
+}
+
+.form-field label {
+    width: 20%;;
+}
+
+.result {
+    position: absolute;
+    top: 8%;
+    left: 25%;
+    color: red;
+    max-width: 50vw;
+}
+
+#login {
+    text-transform: capitalize;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    background-color: cornflowerblue;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
+    border: none;
+}
+
+#login:hover {
+    background-color: rgb(7, 66, 174);
+}
+
+.button {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: burlywood;
+}
+
+.button:hover {
+    color: white;
+    background-color: rgb(139, 116, 84);
+}
+
+.email, .password, .password-confirm {
+    display: none;
+}
