@@ -1,0 +1,57 @@
+html {
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 20% auto;
+    width: 80%;
+    display: grid;
+    justify-content: center;
+}
+
+.form-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.form-field input {
+    padding: 20px;
+    margin: 20px;
+}
+
+.result {
+    color: red;
+    max-width: 300px;
+}
+
+#login {
+    text-transform: capitalize;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    background-color: coral;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#login:hover {
+    background-color: rgb(196, 97, 62);
+}
+
+.button {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: burlywood;
+}
+
+.button:hover {
+    color: white;
+    background-color: rgb(139, 116, 84);
+}
