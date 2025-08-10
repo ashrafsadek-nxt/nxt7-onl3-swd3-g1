@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <div>
+            <label for="wordcount">number of words</label>
+            <input type="number" name="wordcount" id="wordcount" required>
+        </div>
+        <div>
+            <label for="language">language</label>
+            <select name="language" id="language" required>
+                <option value="english">english</option>
+                <option value="french">french</option>
+                <option value="german">german</option>
+                <option value="chinese">chinese</option>
+            </select>
+        </div>
+        <button type="submit">get price</button>
+    </form>
+    <p id="price"></p>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+html {
+    font-family: sans-serif;
+}
+.container {
+    margin: 5% auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.container div {
+    background-color: #6c5454;
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,46 @@
+html {
+    font-family: sans-serif;
+}
+.container {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card {
+    width: 250px;
+    background-color: burlywood;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.card .content {
+    padding: 20px;
+}
+
+.card img {
+    height: 250px;
+    width: 250px;
+}
+
+.card .content .unavailable {
+    color: rgb(122, 51, 51);
+    font-weight: bold;
+}
+
+.card .content a {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.card .content a:hover {
+    background-color: rgb(27, 122, 217);
+}
