@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.login-container:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.input-group {
+    margin-bottom: 24px;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(1.02);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #ff5e62, #ff9966);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #ff9966, #ff5e62);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 94, 98, 0.4);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+.error-message {
+    color: #ff6b6b;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 14px;
+    min-height: 20px;
+}
+
+.input-hint {
+    font-size: 0.75rem;
+    opacity: 0.6;
+    margin-top: 0.3rem;
+}
+
+.valid-icon {
+    position: absolute;
+    right: 10px;
+    top: 38px;
+    color: #4CAF50;
+    font-size: 16px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.valid-icon.show {
+    opacity: 1;
+}
