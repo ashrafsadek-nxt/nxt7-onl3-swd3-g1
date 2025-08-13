@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styeel.css" />
+    <title>HomeStyle</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.png" alt="logo" class="logo-img" />
+        <h3>HOME STYLE</h3>
+      </div>
+      <div class="links">
+        <nav>
+          <ul class="link-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Our projects</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+        <label class="switch">
+          <input type="checkbox" id="darkModeToggle" />
+          <span class="slider"></span>
+        </label>
+      </div>
+    </header>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h2 style="background-color: #f8f4ef">
+          Transform Your Home with Style
+        </h2>
+        <p>
+          We create modern, elegant, and cozy interiors tailored to your taste.
+        </p>
+        <a href="#contact" class="btn">Book a Consultation</a>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <div class="card">
+          <h3>Living Room Design</h3>
+          <img src="img/living-room.jpg" alt="" />
+          <p>Modern and cozy living room makeovers tailored to your style.</p>
+        </div>
+        <div class="card">
+          <h3>Bedroom Styling</h3>
+          <img src="img/bedroom.png" alt="" srcset="" />
+          <p>
+            Relaxing and elegant bedroom transformations for better comfort.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Full Home Renovation</h3>
+          <img src="img/full_home.png" alt="" />
+          <p>We manage your space from floor to ceiling, professionally.</p>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="gallery">
+      <h2>Previous Projects</h2>
+      <div class="project-gallery">
+        <div class="project-item">
+          <img src="img/livingroom2.webp" alt="Living Room Design" />
+          <h3>Living Room</h3>
+        </div>
+        <div class="project-item">
+          <img src="img/bedroom2.webp" alt="Bedroom Design" />
+          <h3>Bedroom</h3>
+        </div>
+        <div class="project-item">
+          <img src="img/kitchen.jpg" alt="Kitchen Design" />
+          <h3>Kitchen</h3>
+        </div>
+        <div class="project-item">
+          <img src="img/SalonRoom.webp" alt="Living Room Design" />
+          <h3>Salon room</h3>
+        </div>
+        <div class="project-item">
+          <img src="img/Children'sBedroom.jpg" alt="Bedroom Design" />
+          <h3>Children's bedroom</h3>
+        </div>
+        <div class="project-item">
+          <img src="img/DiningRoom.jpg" alt="Kitchen Design" />
+          <h3>Dining room</h3>
+        </div>
+        <div class="project-item">
+          <img src="img/Americankitchen.jpg" alt="Living Room Design" />
+          <h3>American kitchen</h3>
+        </div>
+        <div class="project-item">
+          <img src="img/garden.jpg" alt="Bedroom Design" />
+          <h3>garden</h3>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2>Book a Consultation</h2>
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required />
+        </div>
+        <div class="form-group">
+          <label for="text">Phone Number </label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea
+            id="message"
+            rows="4"
+            placeholder="How can we help?"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Send Request</button>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-about">
+          <h3>Home Style</h3>
+          <p>Your go-to place for elegant and cozy interior design.</p>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Follow Us</h4>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/?locale=ar_AR" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://x.com/" target="_blank"
+              ><i class="fab fa-x-twitter"></i
+            ></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.linkedin.com/feed/" target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 HomeVibe. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="js/script.js" defer></script>
+
+  </body>
+</html>
