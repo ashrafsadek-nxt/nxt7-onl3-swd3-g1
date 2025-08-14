@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="myForm">
+      <input type="text" id="email" placeholder="email" />
+      <br />
+      <span id="emailError"></span>
+      <br />
+      <input type="password" id="password" placeholder="password" />
+      <br />
+      <span id="passwordError"></span>
+      <br />
+      <button type="submit">تسجيل الدخول</button>
+    </form>
+    <script>
+      let form = document.getElementById("myForm");
+      let emailInput = document.getElementById("email");
+      let emailError = document.getElementById("emailError");
+      let passwordInput = document.getElementById("password");
+      let passwordError = document.getElementById("passwordError");
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        let emailValue = emailInput.value.trim();
+        let emailRegex = /^[^\s@]+@[^\s@]+\.com/;
+        let passwordValue = passwordInput.value.trim();
+        let passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
+
+        if (emailRegex.test(emailValue)) {
+          emailError.textContent = "";
+          if (passwordRegex.test(passwordValue)) {
+            passwordError.textContent ="";
+            alert("Successful login ✅");
+          } else {
+            passwordError.textContent =
+              "Should be at least 8 characters, include uppercase, lowercase, and a number";
+          }
+        } else {
+          emailError.textContent = "Emil is incorrect ex : 'example@mail.com'";
+        }
+      });
+    </script>
+  </body>
+</html>

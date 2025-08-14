@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOOP</title>
+    <style>
+      body {
+        background-color: floralwhite;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+       
+      }
+      #container {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        flex-wrap: wrap; 
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(128, 113, 113);
+        border-radius: 5PX;
+      }
+      button{
+        height: 50px;
+        border-radius: 5px;
+        background-color: rgb(128, 113, 113);
+      }
+    </style>
+  </head>
+  <body>
+    <button id="showBtn">عرض الديفات</button>
+    <div id="container"></div>
+
+    <script>
+      let btn = document.getElementById("showBtn");
+      let container = document.getElementById("container");
+
+      btn.addEventListener("click", function () {
+        btn.style.display = "none";
+        for (let i = 0; i < 5; i++) {
+          // كرر 5 مرات
+          let newDiv = document.createElement("div");
+          newDiv.classList.add("box");
+          container.appendChild(newDiv);
+        }
+      });
+    </script>
+  </body>
+</html>
