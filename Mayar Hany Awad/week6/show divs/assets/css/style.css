@@ -1,0 +1,12 @@
+#container, #showImages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+#container div,
+#showImages img{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
