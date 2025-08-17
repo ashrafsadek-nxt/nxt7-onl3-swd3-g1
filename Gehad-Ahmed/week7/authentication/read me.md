@@ -22,9 +22,10 @@ User data is stored in a JSON database and checked during login.
 ## 📸 UI Screenshots
 
 ### 🔹 Sign Up Screen
-*(Add a screenshot of your Sign Up page here)*  
+ 
 
 ![Sign Up UI Screenshot](./login-access/assets/screencapture-signup.png)
+
 
 Explanation:
 - **Username field** → must follow specific regex rules.  
@@ -34,8 +35,7 @@ Explanation:
 
 ---
 
-### 🔹 Regex Validation Rules (Sign Up Screen)
-*(Add a screenshot that shows the regex explanation / error messages in UI)*  
+### 🔹 Regex Validation Rules (Sign Up Screen) 
 
 ![Regex Validation Screenshot](./login-access/assets/screan-validation.png)
 
@@ -61,6 +61,7 @@ Explanation of rules:
 │── home.html # Redirect page after login
 │── /css
 │ └── style.css # Styles
+  
 │── /js
 │ └── index.js # Shared JavaScript functions
 │── /assets
