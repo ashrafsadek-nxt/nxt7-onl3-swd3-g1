@@ -35,6 +35,11 @@ Explanation:
 - **Sign Up Button** → disabled until all inputs are valid.  
 
 ---
+This screen allows registered users to **log in** with their email and password.  
+If credentials match the stored data, the user is redirected to the **Home Page**.
+
+![Login UI Screenshot](./login-access/assets/login/csreanshotlogin.png)
+
 
 ### 🔹 Regex Validation Rules (Sign Up Screen) 
 
@@ -56,19 +61,23 @@ Explanation of rules:
 ---
 
 ## 📂 Project Structure
-/project-root
-│── index.html # Sign Up page
-│── login.html # Login page
-│── home.html # Redirect page after login
-│── /css
-│ └── style.css # Styles
-  
-│── /js
-│ └── index.js # Shared JavaScript functions
+/login-access
 │── /assets
-│ └── signup-ui.png
-│ └── regex-validation.png
+│     └── /login
+│          └── screan.png              # screenshot of login screen
+│     └── /signup
+│          └── ui-screan.png           # screenshot of signup UI
+│          └── regex-validation.png    # screenshot of regex validation
+│── /css
+│     └── style.css
+│── /js
+│     └── login.js
+│     └── signup.js
+│     └── helper.js
+│── /webfonts
+│── home.html
+│── login.html
+│── signup.html
 │── README.md
-
 
 
