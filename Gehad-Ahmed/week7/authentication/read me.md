@@ -24,7 +24,8 @@ User data is stored in a JSON database and checked during login.
 ### 🔹 Sign Up Screen
  
 
-![Sign Up UI Screenshot](./login-access/assets/screencapture-signup.png)
+![Sign Up UI Screenshot](./login-access/assets/signup/screencapture-signup.png)
+
 
 
 Explanation:
@@ -37,7 +38,7 @@ Explanation:
 
 ### 🔹 Regex Validation Rules (Sign Up Screen) 
 
-![Regex Validation Screenshot](./login-access/assets/screan-validation.png)
+![Regex Validation Screenshot](./login-access/assets/signup/screan-validation.png)
 
 Explanation of rules:
 - **Username Regex** → `^(?=^[A-Za-z])(?=.*\d?)[A-Za-z0-9_-]{4,16}$`  
