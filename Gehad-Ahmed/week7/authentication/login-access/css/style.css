@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+html{
+      overflow-x: hidden;
+
+
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+    overflow-x: hidden;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+body{
+  overflow-x: hidden;
+}
+
+
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  /* .instrument-serif-regular-italic {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  } */
+
+.login-content{
+    background-color: rgb(250, 255, 251) ;
+}
+
+.form-items label{
+  color: #6d6a7d !important;
+
+}
+.item2 h2{
+    font-weight: bold;
+    /* margin-bottom: 40px; */
+    
+}
+.item2 label{
+    
+    font-weight: 500;
+
+
+}
+.forget-pass {
+    
+    color:#539666 ;
+    margin: 10px 0;
+    font-weight: bold;
+
+    display: block;
+    text-align: end;
+}
+.send{
+    
+    height: 45px ;
+    background-color: #263238;
+    border-radius: 4px;
+
+}
+
+.send a{
+    
+   
+    color: white;
+}
+
+
+.line-word-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .line-word-line::before, .line-word-line::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #d2d1d2; /* The line */
+    margin: 0 20px; /* Space between the line and the word */
+  }
+
+  .line-word-line {
+    font-size: 16px; /* Adjust font size as needed */
+    
+  }
+
+  .sign-g{
+    color: #d2d1d2;
+  }
+
+.sign-g{
+    font-size: 12px;
+    color: #9b9a9a;
+   
+    a{
+        text-decoration: none;
+        color: #979797;
+    }
+    p{
+        font-size: 14px;
+
+    }
+    .c-account{
+        color: #539666;
+    }
+    
+  }
+
+  .login-content .carousel-inner div img{
+    /* width: 100%; */
+    height: 100vh;
+    border-radius: 5px;
+}
+
+
+  
+
+  /* Keyframes for pulse animation */
+
+
+  /* Optional: Add a smooth transition to the carousel items as well */
+  .login-content .carousel-item {
+    transition: transform 0.6s ease-in-out;
+  }
+
+  
+/* ///////////////////////////////////////////////// */
+
+.signup ,.login-content{
+    background-color: #2b2738;
+    height: 100%;
+}
+.left{
+    /* margin: 20px; */
+    height: 100%;
+    background-color: #2b2738;
+   
+}
+.inside-left{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #3b364c;
+    height: 100%;
+
+}
+.signup .carousel-inner div img{
+    /* width: 100%; */
+    height: 650px;
+    border-radius: 5px;
+}
+.a-color{
+    color: #6e54b5;
+
+}
+.slider-img {
+    position: relative;
+}
+.userdata span{
+  font-size: 0.7rem;
+}
+.back-home{
+    position: absolute;
+    
+    top: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.24);
+    border-radius: 15px;
+    
+
+}
+.userdata input ,.form-items input{
+    background-color: #3b364c;
+    /* text-transform: capitalize; */
+    border: none;
+    color: #d0d4d2;
+    font-size: 14px;
+}
+.userdata input::placeholder ,.form-items input::placeholder{
+    color: #6d6a7d !important;
+}
+.userdata input:focus ,.form-items input:focus{
+    border: 1px solid #6e54b5 !important;
+    outline-offset: none;
+    background-color: #3b364c;
+    color: white !important;
+    box-shadow: 0 0 0 .1rem rgba(255, 255, 255, 0.308);
+   
+
+}
+.userdata input:focus::placeholder {
+    color: rgb(236, 234, 234);
+    opacity: 1;
+
+}
+.creat-btn ,.send{
+    background-color: #6e54b5;
+    border-radius: 5px;
+}
+
+.line-word-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6d6a7d;
+  }
+
+  .line-word-line::before, .line-word-line::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #6d6a7d; /* The line */
+    margin: 0 10px; /* Space between the line and the word */
+  }
+
+  .line-word-line {
+    font-size: 16px; /* Adjust font size as needed */
+    
+  }
+  .googlebtn{
+   border-radius: 5px;
+    box-shadow: 0 0 0 .1rem rgba(238, 238, 238, 0.308);
+
+  }
+
+  input[type="checkbox"] {
+    transform: scale(1.5); /* 1.5 times the original size */
+    -webkit-transform: scale(1.5); /* For Safari */
+  }
+
+.agreebtn{
+    font-size: 14px;
+}
+.login-p{
+    color: #6d6a7d;
+}
+
+/* ظظظظظظظظظظظظظظظظظظظظظظظظظ */
+
