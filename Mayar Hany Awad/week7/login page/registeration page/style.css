@@ -1,0 +1,207 @@
+/* poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* global style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 450px;
+    transition: all 0.3s ease;
+}
+/* inputs */
+.input-field {
+    width: 100%;
+    padding: 14px 16px;
+    border: 2px solid #e1e5e9;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.input-field.valid {
+    border-color: #28a745;
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.1);
+}
+
+.input-field.invalid {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.1);
+}
+
+.input-field:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+/* error msg */
+.error-message {
+    color: #dc3545;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+}
+
+.error-message.show {
+    display: block;
+}
+
+/* registration-container */
+.logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.logo-icon::before {
+    content: "👤";
+    font-size: 24px;
+}
+
+.logo h1 {
+    color: #333;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/* registration-form */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.success-message {
+    color: #28a745;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    display: none;
+}
+
+.success-message.show {
+    display: block;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+}
+
+.submit-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.welcome-container {
+    text-align: center;
+    display: none;
+}
+
+.welcome-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(45deg, #28a745, #20c997);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.welcome-icon::before {
+    content: "✓";
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+
+.welcome-container h2 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.welcome-container p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.back-btn {
+    margin-top: 30px;
+    padding: 12px 30px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+    background: #5a67d8;
+    transform: translateY(-1px);
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 30px 20px;
+    }
+            
+    .logo h1 {
+        font-size: 24px;
+    }
+}
