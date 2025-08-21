@@ -1,0 +1,60 @@
+/* Light Mode (default) */
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Tahoma, Arial, sans-serif;
+  background:#f7f7f7;
+  color:#111;
+  padding:20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+section{
+  margin-bottom:40px;
+  padding:20px;
+  border:1px solid #ddd;
+  border-radius:12px;
+  background:#fff;
+  max-width: 640px;
+}
+h2{ margin-top:0; color:#335dff }
+label{ display:block; margin-top:10px }
+input{
+  padding:10px;
+  width:100%;
+  border-radius:8px;
+  border:1px solid #ccc;
+  background:#fff;
+  color:#111;
+  outline:none;
+}
+input:focus{ border-color:#335dff; box-shadow:0 0 0 3px rgba(51,93,255,.15); }
+.rule{ font-size:13px; margin-top:6px; color:#666 }
+.rule.ok{ color:#059669 }
+.rule.bad{ color:#dc2626 }
+button{
+  margin-top:14px;
+  padding:10px 14px;
+  border:none;
+  border-radius:8px;
+  background:#335dff;
+  color:white;
+  cursor:pointer;
+}
+button:disabled{ opacity:.6; cursor:not-allowed }
+
+/* Dark Mode */
+body.dark {
+  background:#111;
+  color:#eee;
+}
+body.dark section {
+  background:#1b1b1b;
+  border:1px solid #444;
+}
+body.dark input {
+  background:#222;
+  color:#eee;
+  border:1px solid #555;
+}
+body.dark button {
+  background:#4f46e5;
+}
