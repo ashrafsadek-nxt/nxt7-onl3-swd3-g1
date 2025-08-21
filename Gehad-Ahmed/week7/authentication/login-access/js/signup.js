@@ -22,6 +22,7 @@ function passmatch(pass,confirmpass){
     return true
   }else{
     console.log("password doesn't mtch");
+    return false;
     
   }
 
@@ -37,14 +38,18 @@ function applyUsernameRegex(usernamep){
 
     if(usernameRegex.test(usernamep)){
       nextspan(username,"green","username looks good ✅")
+  
 
     console.log("username match regex");
+        return true
     
   }else{
+    
           nextspan(username,"#E4A11B","Username must start with a letter,  _ ,contain number!")
 
 
     console.log("username doesnt match regex");
+    return false
     
   }
 
@@ -55,14 +60,16 @@ function applyPassRejex(pass){
 
   if(passregex.test(pass)){
     nextspan(password,"green ","good password ✅")
-
+   
 
     console.log("pass match regex");
+     return true;
     
    }else{
     nextspan(password,"#E4A11B ","password At least one uppercase letter (A–Z),lowercase letter (a–z), number, special character, min-lenght 8 chars 😃")
-
+ 
     console.log("pass doesnt match regex");
+      return false;
     
    }
 }
@@ -137,7 +144,7 @@ async function addUser(newUser) {
   await updateData(userarray); 
 }
 form.addEventListener("change",()=>{
-    if (username.value === "" || email.value === "" || password.value === "" || !agree.checked) {
+    if (username.value === "" || email.value === "" || password.value === ""||confirmPassword.value==="" || !agree.checked) {
     signupBtn.disabled = true;   
 } else {
     signupBtn.disabled = false;
@@ -241,6 +248,7 @@ form.addEventListener('submit',async (e)=>{
   for (let user of userdata) {
    if(emailVal.toLowerCase()===user.email.toLowerCase().trim()){
     console.log("this email alredy exist");
+    nextspan(email,"red","this email alredy exist")
     emailfound=true
     break ;
   
@@ -252,21 +260,26 @@ form.addEventListener('submit',async (e)=>{
     agreeterms()
 
 
-  if(!emailfound && usernamVal !== "" && passVal !== "" && passConfirmVal !== "")
+  if( usernamVal !== "" && passVal !== "" && passConfirmVal !== "" &&terms.checked)
     {
-
-    applyEmailRegex(emailVal);
-    applyPassRejex(passVal)
-    passmatch(passVal,passConfirmVal);
-    await addUser(newuser);
-
-
-    console.log("the user has been added sucssesfffffulyyyy");
-    
-    window .location.href="login.html"
-   
+        if(!emailfound && applyEmailRegex(emailVal)&& applyPassRejex(passVal) && passmatch(passVal,passConfirmVal))
+        {
+           await addUser(newuser);
+           window .location.href="login.html"
+           console.log("the user has been added sucssesfffffulyyyy");
+        }else{
+          console.log("check your inputs");
+          nextspan(signupBtn,"red","please check all fields");  
+        }
 
 
   }
+  else{
+    console.log("all fields are required");
+    
+  }
+
+
+  
 })  
   

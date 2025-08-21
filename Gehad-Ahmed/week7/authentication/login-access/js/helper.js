@@ -21,12 +21,16 @@ function applyEmailRegex(emailtest){
 
   if(emailregex.test(emailtest)){
     nextspan(email,"","")
+    
 
     console.log("email match regex");
+    return true
     
   }else{
+    
     nextspan(email,"#E4A11B","example:user@example.com")
     console.log("email doesnt match");
+    return false;
     
   }
 }
