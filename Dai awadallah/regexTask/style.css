@@ -1,0 +1,12 @@
+
+    body{
+      font-family:sans-serif; background:#f7f7f7; color:#111; padding:20px
+    }
+    section{margin-bottom:40px; padding:20px; border:1px solid #ddd; border-radius:12px; background:#fff}
+    h2{margin-top:0; color:#335dff}
+    label{display:block; margin-top:10px}
+    input{padding:8px; width:100%; border-radius:8px; border:1px solid #ccc; background:#fff; color:#111}
+    .rule{font-size:13px; margin-top:4px; color:#666}
+    .rule.ok{color:#059669}
+    .rule.bad{color:#dc2626}
+    button{margin-top:14px; padding:10px 14px; border:none; border-radius:8px; background:#335dff; color:white; cursor:pointer}
