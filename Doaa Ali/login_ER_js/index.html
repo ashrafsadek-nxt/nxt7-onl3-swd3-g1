@@ -17,35 +17,45 @@
       <br />
       <button type="submit">login</button>
     </form>
-    <script>
+   <script>
       let form = document.getElementById("myForm");
       let emailInput = document.getElementById("email");
       let emailError = document.getElementById("emailError");
       let passwordInput = document.getElementById("password");
       let passwordError = document.getElementById("passwordError");
 
-      form.addEventListener("submit", function (e) {
-        e.preventDefault();
+      let emailRegex = /^[^\s@]+@[^\s@]+\.com$/;
+      let passwordRegex = /^(?=.[a-z])(?=.[A-Z])(?=.*\d).{8,}$/;
 
+      emailInput.addEventListener("blur", function () {
         let emailValue = emailInput.value.trim();
-        let emailRegex = /^[^\s@]+@[^\s@]+\.com/;
-        let passwordValue = passwordInput.value.trim();
-        let passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
-
-        if (emailRegex.test(emailValue)) {
-          emailError.textContent = "";
-          if (passwordRegex.test(passwordValue)) {
-            passwordError.textContent ="";
-            alert("Successful login ✅");
-          } else {
-            passwordError.textContent =
-              "Should be at least 8 characters, include uppercase, lowercase, and a number";
-          }
+        if (!emailRegex.test(emailValue)) {
+          emailError.textContent = "Email is incorrect ex: 'example@mail.com'";
         } else {
-          emailError.textContent = "Emil is incorrect ex : 'example@mail.com'";
+          emailError.textContent = "";
+        }
+      });
+
+      passwordInput.addEventListener("blur", function () {
+        let passwordValue = passwordInput.value.trim();
+        if (!passwordRegex.test(passwordValue)) {
+          passwordError.textContent =
+            "At least 8 characters, include uppercase, lowercase, and a number";
+        } else {
+          passwordError.textContent = "";
+        }
+      });
+
+      form.addEventListener("submit", function (e) {
+        if (!emailError.textContent || !passwordError.textContent) {
+          e.preventDefault();
+          alert("Please fix the errors before submitting");
+        } else {
+          alert("Successful login ✅");
         }
       });
     </script>
   </body>
 </html>
+
 
