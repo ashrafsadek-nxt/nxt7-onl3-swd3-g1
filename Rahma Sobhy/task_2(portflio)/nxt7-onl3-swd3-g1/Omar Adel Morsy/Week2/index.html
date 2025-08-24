@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Facebook - Sign up</title>
+</head>
+<body lang="en" dir="ltr">
+    <header>
+        <div class="conatiner">
+            <div class="logo">
+                <img src="assets/img/facebook.svg" alt="Facebook Logo">
+            </div>
+        </div>
+    </header>
+    <section class="conatiner">
+        <div class="formContainer">
+            <form action="../Week 1/index.html" method="get">
+                <div class="formTitle">
+                    <h2>Create a new account</h2>
+                    <p>It's quick and easy.</p>
+                </div>
+                <div class="formContent">
+                    <div class="row gap-3 px-2 py-1">
+                        <input class="col" type="text" name="Fname" id="Fname" required placeholder="First name">
+                        <input class="col" type="text" name="Lname" id="Fname" required placeholder="Surname">
+                    </div>
+                    <p class="py-0 mt-2 label">Date of birth <i class="ms-1 i-img i-img-pos"></i></p>
+                    <div class="row gap-2 px-2 py-1">
+                        <select class="col" type="text" name="Day" id="Day" ></select>
+                        <select class="col" type="text" name="Month" id="Month" ></select>
+                        <select class="col" type="text" name="Year" id="Year" ></select>
+                    </div>
+                    <p class="py-0 mt-2 label">Gender<i class="ms-1 i-img i-img-pos"></i></p>
+                    <div class="row pe-2 py-1 radio">
+                        <div class="col pe-0 position-relative" >
+                            <label for="Female">Female</label>
+                            <input type="radio" name="Gender" id="Female" value="f"></input>
+                        </div>
+                        <div class="col pe-0 position-relative" >
+                            <label for="Male">Male</label>
+                            <input type="radio" name="Gender" id="Male" value="m"></input>
+                        </div>
+                        <div class="col pe-0 position-relative" >
+                            <label for="Custom">Custom</label>
+                            <input type="radio" name="Gender" id="Custom" value="c"></input>
+                        </div>
+                        
+                    </div>
+                    <div class="row gap-3 px-2 py-1 my-1">
+                        <input class="col" type="text" name="Email" id="Email" required placeholder="Mobile number or email address">
+                    </div>
+                    <div class="row gap-3 px-2 py-1 my-1">
+                        <input class="col" type="text" name="Password" id="Password" required minlength="8" placeholder="New password">
+                    </div>
+                    <div class="formFooter">
+                        <p>
+                        People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more</a> .</p> 
+                        <p>
+                            clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.
+                        </p>
+                    </div>
+                    <div class="text-center my-4 ">
+                        <button type="submit" class="submitBtn">Sign UP</button>
+                    </div>
+                    <div class="w-75 ms-auto">
+                        <a href="" class="text-decoration-none">Already have an account?</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
