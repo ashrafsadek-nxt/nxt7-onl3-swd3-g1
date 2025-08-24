@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple HTML document structure">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <title>Document</title>
+</head>
+<body>
+    <form action="contact.html" method="post">
+        <label for="username">username</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+        <br>
+        <label for="lastname">lastname</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Enter your last name" required>
+        <br>
+        <label for="password">password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br>
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br>
+        <label for="phone">phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+        <br>
+        <label for="age">age</label>
+        <input type="number" id="age" name="age" placeholder="Enter your age" required>
+        <br>
+        <label for="website">website</label>
+        <input type="url" id="website" name="website" placeholder="Enter your website URL" required>
+        <br>
+        <label for="rate">rate</label>
+        <input type="range" id="rate" name="rate" min="1" max="10" step="1" required>
+        <br>
+        <label for="color"> color</label>
+        <input type="color" id="color" name="color" value="#000000" required>
+        <br>
+        <label for="date">date</label>
+        <input type="date" id="date" name="date" required>
+        <br>
+        <label for="time">time</label>
+        <input type="time" id="time" name="time" required>
+        <br>
+        <label for="month">month</label>
+        <input type="month" id="month" name="month" required>
+        <br>
+        <label for="search">search</label>
+        <input type="search" id="search" name="search" placeholder="Search..." required>
+        <br>
+        <label for="file">file</label>
+        <input type="file" id="file" name="file" accept=".txt,.pdf,.docx" required>
+        <br>
+        <span>sports......</span>
+        <label for="fb">football</label>
+        <input type="checkbox" id="fb" name="checkbox" value="agree" required>
+        <label for="bb">backetball</label>
+        <input type="checkbox" id="bb" name="checkbox" value="agree" required>
+        <label for="vb">vallyball</label>
+        <input type="checkbox" id="vb" name="checkbox" value="agree" required>
+        <br>
+        <label for="hidden">hidden</label>
+        <input type="hidden" id="hidden" name="hidden" value="hidden_value">
+        <br>
+        <span>gender........</span>
+        <label for="radio">male</label>
+        <input type="radio" id="" name="gender" value="male" required>
+        <label for="radio">female</label>
+        <input type="radio" id="" name="gender" value="female" required>
+        <br>
+        <label for="description">description</label>
+        <textarea id="description" name="description" rows="4" cols="50" placeholder="Enter a description..." required></textarea>
+        <br>
+        <label for="">country</label>
+        <input type="text" name="country" id="country" list="countries" placeholder="Enter your country" required>
+        <datalist id="countries">
+            <option value="Afghanistan">
+            <option value="Albania">
+            <option value="Algeria">
+            <option value="Andorra">
+        </datalist>
+        <br>
+        <label for="select"></label>
+        <select name="select" id="select" required>
+            <option value="" disabled selected>select_choise</option>
+            <option value="option1">option_1</option>
+            <option value="option2">option_2</option>
+            <option value="option3">option_3</option>
+            </select>
+        <br>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+        <br>
+    </form>
+    </body>
+</html>
