@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.home{
+    background-image: url('../images/drew-coffman-1872.jpg');
+    background-size:100% 100%;
+    height: 120vh;
+}
+.clr{
+    clear: both;
+}
+.navbar{
+    background-color: #2b262c;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.navbar img{
+    float: left;
+    width: 150px;
+    padding-top: 10px;
+    padding-left: 20px;
+    /* padding: 20px; */
+    padding-right: 500px;
+}
+.navbar ul{
+    float :left;
+    list-style: none;
+
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400px;
+    font-size: large;
+}
+.fix{
+    width: 30px;
+    height: 70px ;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    background-color:#f8f8f8 ;
+    padding: 10px;
+    border-radius: 5px;
+}
+.fix img{
+    width: 100%;
+}
+.caption{
+    text-align: center;
+    padding-top: 230px;
+}
+.caption .p{
+    color: white;
+    font-family: "Alegreya", serif;
+    font-optical-sizing:auto;
+    font-weight:400;
+    font-style:normal;
+    font-size: 64px;
+    margin: 10px 0;
+
+}
+.caption p{
+    color: white;
+    font-size: 26px;
+}
+.home .caption .btn1,.home .caption .btn2{
+    padding: 10px 16px;
+    border: transparent;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+}
+.home .caption .btn1{
+    background-color: #c1ab84;
+    border:solid 2px #c1ab84 ;
+    
+}
+.home .caption .btn2{
+    background-color: transparent;
+    border:solid 2px #c1ab84 ;
+}
+#who{
+    padding-top: 80px;
+}
+#who .who-img{
+    width: 40%;
+    float: left;
+    padding-left: 50px;
+}
+#who .who-img img{
+    width: 100%;
+    padding-right: 20px;
+}
+#who .who-img img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+
+    /* border-radius: 5px; */
+}
+#who .who-info{
+    width: 50%;
+    float: right;
+    padding-left: 16px;
+}
+#who .who-info h3{
+    font-family: "Alegreya", serif;
+    font-optical-sizing:auto;
+    font-weight:400;
+    font-style:normal;
+    font-size: 33px;
+}
+#who .who-info p{
+    font-family: "Alegreya", sans-serif;
+    font-size: 17px;
+    color: #686868;
+}
+#who .who-info .who-info-det{
+    list-style: none;
+}
+#who .who-info .who-info-det li img{
+    margin-top: 10px; 
+}
+#who .who-info .who-info-det li span{
+    font-family: "Alegreya", sans-serif;
+    font-size: 18px;
+    color: #686868;
+    display: inline;
+    padding-left: 18px;
+}
+#our{
+    margin-top: 80px;
+    padding-top: 80px;
+    background-color: #f8f8f8;
+}
+#our .our-info{
+    float: left;
+    width: 40%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+#our .our-info h2{
+    font-family: "Alegreya", serif;
+    font-optical-sizing:auto;
+    font-weight:400;
+    font-style:normal;
+    font-size: 33px;
+}
+#our .our-info p{
+    font-family: "Alegreya", sans-serif;
+    font-size: 17px;
+    color: #686868;
+    line-height: 35px;
+}
+#our .our-img{
+    float: right;
+    width: 40%;
+    padding-right: 70px ;
+}
+#our .our-img img{
+    width: 100%;
+}
+.our-baking{
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    /* background-color: #f5f5f5; */
+}
+.our-baking h1{
+    text-align: center;
+    font-family: "Alegreya", serif;
+    font-optical-sizing:auto;
+    font-weight:400;
+    font-style:normal;
+    font-size: 33px;
+}
+.our-baking p{
+    text-align: center;
+    font-family: "Alegreya", sans-serif;
+    font-size: 17px;
+    color: #686868;
+    line-height: 35px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.breads1, .breads2, .breads3{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    
+}
+.breads1 img, .breads2 img, .breads3 img{
+    width: 100%;
+    border-radius: 5px;
+}
+.breads1 h2, .breads2 h2, .breads3 h2{
+    font-family: "Alegreya", serif;
+    font-optical-sizing:auto;
+    font-weight:400;
+    font-style:normal;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0;
+}
+.breads1 p, .breads2 p, .breads3 p{
+    font-family: "Alegreya", sans-serif;
+    font-size: 16px;
+    color: #686868;
+    text-align: center;
+    line-height: 25px;
+}
+
+.footer-info{
+    background-color: #3d3b36;
+    padding: 20px;
+    /* text-align: center; */
+}
+.footer-info p{
+    color: #80808b;
+    font-family: "Alegreya", sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.footer-info hr{
+    border: 0;
+    height: 1px;
+    background-color: #80808b;
+    margin: 10px 0;
+}
+.footer-info h3{
+    color: white;
+    font-family: "Alegreya", serif;
+    font-optical-sizing:auto;
+    font-weight:400;
+    font-style:normal;
+    font-size: 18px;
+}
+.about, .contact, .opening, .special{
+    width: 20%;
+    float: left;
+    padding: 20px;
+    background-color: inherit;
+}
+.about span{
+    font-family: "Alegreya", sans-serif;
+    font-size: 16px;
+    color: #80808b;
+    display: block;
+    margin-top: 15px;
+}
+.footer-media{
+    background-color:#33312e;
+    text-align: center;
+    padding: 20px;
+}
+.footer-media h3{
+    color: white;
+    font-family: "Alegreya", serif;
+    font-optical-sizing:auto;
+    font-weight:400;
+    font-style:normal;
+    font-size: 18px;
+}
+.footer-media p{
+    color: #80808b;
+    font-family: "Alegreya", sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.social{
+    padding: 20px;
+    background-color: inherit;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.social img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+}
+
+/* media quary */
+@media screen and (max-width:768px) {
+    #who .who-img{
+        width: 100%;
+    }
+    #who .who-info{
+        width: 100%;
+    }
+    #our .our-info{
+        width: 100%;
+        padding-left: 0;
+    }
+    #our .our-img{
+        width: 100%;
+        padding-right: 0;
+    }
+    .breads1, .breads2, .breads3{
+        width: 100%;
+        float: none;
+        padding: 10px;
+    }
+    .about, .contact, .opening, .special{
+        width: 40%;
+        float: left;
+        padding: 10px;
+    }
+}
+
