@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.img-container {
+    text-align: center;
+    background-color:#67B9CD;
+    height: 60px;
+}
+.img-container img {
+    height: auto;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.lang{
+    background-color: #E8E8E9;
+    height: 30px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.sell img{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.sell a {
+    color: #ED861D;
+    text-decoration: none;
+    font-size: 12px;
+}
+#jumia{
+    width: 40%;
+    height: 15px;
+    vertical-align: middle;
+}
+#jumia:hover {
+    opacity: 0.8;
+}
+#jumia-pay{
+    width: 40%;
+    height: 15px;
+    vertical-align: middle;
+}
+.lang-select img{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.lang-select .s{
+    opacity: 0.3;
+}
+.nav{
+    height: 80px;
+    background-color: #f5f5f5;
+    position: sticky;
+    top: 0;
+    box-shadow: #ccc 0px 2px 5px;
+    /* padding-left: 30px; */
+    /* padding-right: 30px; */
+    padding-top: 15px;
+}
+.nav .jumia-logo{
+    width: 10%;
+    height: 30px;
+    vertical-align: middle;
+    /* margin-right: 30px; */
+}
+
+.nav .search{
+    width: 30%;
+    height: 40px;
+    vertical-align: middle;
+    border-radius:5px;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+    font-size: 15px;
+}
+.nav .search-btn{
+    width: 5%;
+    height: 40px;
+    background-color: #ED861D;
+    color: white;
+    border: none;
+    font-size: 15px;
+    box-shadow: #ccc 2px 2px 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin-right: 30px; */
+}
+.avatar{
+    width: 5%;
+    height: 40px;
+    vertical-align: middle;
+}
+.dropbtn {
+    background-color: #E8E8E9;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 100%;
+    text-align: left;
+}
+#dropbtn{
+    background-color: #E8E8E9;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 100%;
+    text-align: left;
+}
+
+.dropbtn img ,#dropbtn img{
+    width: 15%;
+    height: 18px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+.live-btn {
+    background-color: #f26522;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px 4px 0 0;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 80%;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+}
+.live-btn img{
+    width: 25px ;
+    height: 22px;
+    vertical-align: middle;
+    /* margin-right: 8px; */
+    /* margin-bottom: 5px; */
+}
+.dropdown {
+    width: 10%;
+    height: 40px;
+    position: relative;
+    display: inline-block;
+    /* margin-left: 20px; */
+}
+.dropdown-content {
+    /* display: none; */
+    padding-top: 10px !important;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    z-index: 1;
+    border-radius: 4px;
+    /* margin-left: -20px; */
+    /* margin-top: 5px; */
+}  
+.dropdown-content2{
+    padding-top: 10px !important;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    z-index: 1;
+    border-radius: 4px;
+    /* margin-top: 5px; */
+    /* margin-left: 20px; */
+}
+.sign-btn {
+    background-color: #f26522;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px 4px 0 0;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 15px;
+    width: 70%;
+}
+
+.dropdown-content a , .dropdown-content2 a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: white;
+    border: none;
+    width: 100%;
+}
+
+.dropdown-content a img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.carts{
+    background-color: inherit;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 10%;
+    height: 40px;
+    text-align: left;
+    /* margin-left: 20px; */
+
+}
+.carts img{
+    width: 25%;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.carts:hover{
+    background-color:#f26522 ;
+}
+
