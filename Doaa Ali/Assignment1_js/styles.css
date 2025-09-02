@@ -1,4 +1,3 @@
-/* تنسيق الحاوية العامة */
 body {
   display: flex;
   justify-content: center;
@@ -7,16 +6,12 @@ body {
   background-color: #f0f0f0;
   margin: 0;
 }
-
-/* تنسيق الآلة الحاسبة */
 .calculator {
   width: 500px;
   background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
 }
-
-/* تنسيق الشاشة */
 #display {
   width: 96%;
   height: 60px;
@@ -48,7 +43,7 @@ body {
 }
 
 .zero {
-  grid-column: span 2; /* الزر صفر يأخذ عمودين */
+  grid-column: span 2; 
 }
 .btn {
   transition: background-color 0.3s ease, transform 0.2s ease;
@@ -57,4 +52,3 @@ body {
 .btn:active {
   transform: scale(0.95);
 }
-
