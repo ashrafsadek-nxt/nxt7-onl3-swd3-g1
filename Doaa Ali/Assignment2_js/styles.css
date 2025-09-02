@@ -1,0 +1,123 @@
+/* Base Page Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Main Container */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    gap: 10px;
+}
+
+/* Title */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input Section (Text box + Add button) */
+.input-section {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+#taskInput {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#addTaskBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#addTaskBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Task List Container */
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Buttons (Complete & Delete) */
+#taskList li button {
+    transition: opacity 0.3s ease;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Complete button style */
+.complete-btn {
+    background-color: #28a745;
+    margin-right: 5px;
+}
+
+.complete-btn:hover {
+    background-color: #218838;
+}
+
+/* Delete button style */
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+/*Completed Task Style  */
+.completed span {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+}
+
+/* Green Checkmark Style */
+.checkmark {
+    color: #28a745;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.completed .checkmark {
+    color: #28a745;
+    text-decoration: none;
+    opacity: 1;
+}
+
+
