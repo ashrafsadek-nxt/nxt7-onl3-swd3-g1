@@ -1,0 +1,66 @@
+/* ألوان وخطوط عامة */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+/* Navbar */
+.navbar-custom {
+  background-color: #6c63ff;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-custom .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Button */
+.btn-custom {
+  background-color: #6c63ff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn-custom:hover {
+  background-color: #5146d9;
+  transform: translateY(-2px);
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #6c63ff 0%, #8a85ff 100%);
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+  border-radius: 0 0 50px 50px;
+  margin-bottom: 50px;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Cards */
+.card-custom {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+.card-custom:hover {
+  transform: translateY(-5px);
+}
+.card-custom h5 {
+  color: #6c63ff;
+  font-weight: 700;
+}
